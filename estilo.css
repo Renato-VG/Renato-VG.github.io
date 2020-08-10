@@ -1,0 +1,72 @@
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+  font-family:arial;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+  font-family:arial;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+  font-family:arial;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+  font-family:arial;
+}
+h1, h2, h3, h4, h5, p, li{
+  color: white;
+  font-family:arial;
+} 
+
+hr{
+  background-color: white;
+}
+#iconoDatos{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  width: 80%;
+  height: auto;
+}
+
+#example1 {
+  border: 2px solid black;
+  padding: 150px;
+  background-color: black;
+  background: url(cover.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+#cover{
+  width: 100%;
+  height: auto;
+}
+#container {
+  position:relative;
+}
+#perfil {
+ 
+  width: 15%; 
+  position: absolute;
+  left: 550px;
+  top: 50px;
+}
+
+#example2 {
+  border: 2px solid black;
+  padding: 25px;
+  background: url(mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+}
+
