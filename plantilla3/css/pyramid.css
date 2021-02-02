@@ -1,0 +1,154 @@
+#pyramid {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding: 30px;
+  background: #f4f4f4;
+  overflow: hidden;
+  margin: 0;
+  margin-bottom: 3%;
+  position: relative; }
+  @media all and (max-width: 579px) {
+    #pyramid {
+      width: 350px; } }
+  @media all and (min-width: 580px) and (max-width: 1023px) {
+    #pyramid {
+      width: 500px;
+      padding: 3% 0 0 3%; } }
+  #pyramid div.step {
+    z-index: 1;
+    position: relative;
+    height: 0;
+    border-bottom: solid;
+    border-left: solid transparent;
+    border-right: solid transparent;
+    cursor: pointer;
+    margin-bottom: 1%;
+    vertical-align: middle; }
+    #pyramid div.step p {
+      margin-top: 30px;
+      display: inline;
+      white-space: nowrap;
+      border-radius: 0.8em;
+      box-shadow: 0 1px 3px -1px rgba(20, 15, 10, 0.6);
+      transform: translateX(0%);
+      position: absolute;
+      background: #BDD5D6;
+      padding-right: 5px;
+      min-width: 80px; }
+    #pyramid div.step span {
+      background: white;
+      border-radius: 0.8em;
+      -moz-border-radius: 0.8em;
+      -webkit-border-radius: 0.8em;
+      color: black;
+      display: inline-block;
+      font-weight: bold;
+      line-height: 2em;
+      margin-right: 5px;
+      text-align: center;
+      width: 2em; }
+  #pyramid div.step.step1 {
+    border-bottom-color: #bbb; }
+  #pyramid div.step.step2 {
+    border-bottom-color: #249FD5; }
+  #pyramid div.step.step3 {
+    border-bottom-color: #2362A9; }
+  #pyramid div.step.step4 {
+    border-bottom-color: #402C7B; }
+  #pyramid div.step.step5 {
+    border-bottom-color: #87217B; }
+  #pyramid div.step.step6 {
+    border-bottom-color: #BD0E7D; }
+  #pyramid div.step:hover {
+    border-bottom-color: #666666; }
+  #pyramid div.popupFeedback {
+    box-shadow: 0, 1px, 3px, 0, rgba(0, 0, 0, 0.55);
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+    width: 450px;
+    min-height: 40%;
+    max-height: 80%;
+    z-index: 3;
+    text-align: center;
+    padding: 4px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #f4f4f4;
+    border: 1px solid #000; }
+    #pyramid div.popupFeedback > div {
+      width: 100%;
+      padding: 12px; }
+    #pyramid div.popupFeedback p, #pyramid div.popupFeedback h3 {
+      width: 100%;
+      text-align: left; }
+    #pyramid div.popupFeedback h3 {
+      margin-top: 0;
+      width: 400px;
+      font-weight: bold; }
+    #pyramid div.popupFeedback ol, #pyramid div.popupFeedback ul {
+      text-align: left; }
+    #pyramid div.popupFeedback button {
+      transform: translate(-100%, 0%);
+      position: absolute;
+      top: 0;
+      left: 100%;
+      width: 34px;
+      height: 34px;
+      border-top-right-radius: 1px;
+      color: #fff;
+      font-size: 22px;
+      background: #aeb0b3; }
+  #pyramid div.popupFeedback.visible {
+    display: block; }
+  #pyramid div.popupFeedbackShadow {
+    opacity: 0.6;
+    background: #f4f4f4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%; }
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+  /* Adjusts for spacing */ }
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle; }
+
+.modal-header button {
+  color: white; }
+
+#escalon5 .correcta {
+  background-color: #249FD5;
+  color: white; }
+
+#escalon4 .correcta {
+  background-color: #2362A9;
+  color: white; }
+
+#escalon3 .correcta {
+  background-color: #402C7B;
+  color: white; }
+
+#escalon2 .correcta {
+  background-color: #87217B;
+  color: white; }
+
+#escalon1 .correcta {
+  background-color: #BD0E7D;
+  color: white; }
+
+/*# sourceMappingURL=pyramid.css.map */

@@ -1,0 +1,102 @@
+#questions {
+  font-family: arial;
+  box-shadow: inset 2px -1px 5px 0px #ccc;
+  color: black;
+  position: relative;
+  width: 100%;
+  /* border: 1px solid $light-gray; */
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #f7f7f7; }
+
+.content {
+  padding: 10px 20px; }
+
+.question {
+  text-align: left;
+  top: 5px;
+  width: 100%;
+  /* border:1px solid #000; */ }
+  .question .wrapper {
+    width: 100%;
+    height: 20%;
+    background-color: green;
+    color: white; }
+    .question .wrapper h3 {
+      margin-top: 0;
+      padding: 2%; }
+      @media all and (max-width: 579px) {
+        .question .wrapper h3 {
+          font-size: 16px;
+          padding: 3% 5%; } }
+  .question ol {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0; }
+    .question ol li {
+      border-radius: 10px;
+      margin: 0 0 10px 0;
+      padding: 8px;
+      cursor: pointer;
+      -webkit-transition: all .8s ease-in-out; }
+      .question ol li:hover {
+        background-color: #c3ddda;
+        /* color: #f2f2f2; */ }
+      .question ol li input {
+        margin: 0 10px 0 0; }
+  .question .paginacion {
+    position: relative;
+    bottom: 2%;
+    left: 49%; }
+
+.correcta {
+  background-color: green;
+  color: white; }
+
+.incorrecta {
+  background-color: red;
+  color: white; }
+
+.modal-body {
+  padding: 3%; }
+
+.modal {
+  text-align: center;
+  padding: 0 !important; }
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+  /* Adjusts for spacing */ }
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle; }
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+label {
+  cursor: pointer;
+  font-weight: 400 !important; }
+
+input[type=radio] {
+  border: 2px solid #5e5e5e;
+  padding: 0.3em;
+  -webkit-appearance: none; }
+
+input[type=radio]:checked {
+  background: url(data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==) no-repeat center center;
+  background: black;
+  background-size: 9px 9px; }
+
+input[type=radio]:focus {
+  outline-color: transparent; }
+
+/*# sourceMappingURL=questions.css.map */

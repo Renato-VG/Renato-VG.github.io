@@ -1,0 +1,282 @@
+@charset "UTF-8";
+/* contenedor header */
+.div-pol {
+  height: 600px;
+  width: 100%;
+  position: absolute;
+  z-index: 5; }
+
+@media all and (min-width: 1024px) {
+  #pol-1024 {
+    display: inline; }
+
+  #pol-1200 {
+    display: none; }
+
+  #pol-1440 {
+    display: none; }
+
+  #pol-1920 {
+    display: none; } }
+@media all and (min-width: 1200px) {
+  #pol-1024 {
+    display: none; }
+
+  #pol-1200 {
+    display: inline; }
+
+  #pol-1440 {
+    display: none; }
+
+  #pol-1920 {
+    display: none; } }
+@media all and (min-width: 1440px) {
+  #pol-1024 {
+    display: none; }
+
+  #pol-1200 {
+    display: none; }
+
+  #pol-1440 {
+    display: inline; }
+
+  #pol-1920 {
+    display: none; } }
+@media all and (min-width: 1920px) {
+  #pol-1024 {
+    display: none; }
+
+  #pol-1200 {
+    display: none; }
+
+  #pol-1440 {
+    display: none; }
+
+  #pol-1920 {
+    display: inline; } }
+.div-azul {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #5848fb;
+  background: -moz-linear-gradient(left, #5848fb 0%, #f344e4 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #5848fb), color-stop(100%, #f344e4));
+  background: -webkit-linear-gradient(left, #5848fb 0%, #f344e4 100%);
+  background: -o-linear-gradient(left, #5848fb 0%, #f344e4 100%);
+  background: -ms-linear-gradient(left, #5848fb 0%, #f344e4 100%);
+  background: linear-gradient(to right, #5848fb 0%, #f344e4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5848fb', endColorstr='#f344e4', GradientType=1 );
+  width: 100%;
+  border-right: 50px;
+  -webkit-clip-path: polygon(0 0, 83% 0, 46% 100%, 0% 100%);
+  clip-path: polygon(0 0, 83% 0, 46% 100%, 0% 100%);
+  z-index: 5; }
+  @media all and (min-width: 580px) {
+    .div-azul {
+      height: 450px; } }
+  @media all and (min-width: 768px) {
+    .div-azul {
+      height: 600px; } }
+
+.hero {
+  position: relative;
+  width: 100%; }
+  @media all and (min-width: 580px) {
+    .hero {
+      height: 450px; } }
+  @media all and (min-width: 768px) {
+    .hero {
+      height: 600px; } }
+
+.fa-gradient {
+  background: #5848fb;
+  background: -moz-linear-gradient(left, #5848fb 0%, #d045e9 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #5848fb), color-stop(100%, #d045e9));
+  background: -webkit-linear-gradient(left, #5848fb 0%, #d045e9 100%);
+  background: -o-linear-gradient(left, #5848fb 0%, #d045e9 100%);
+  background: -ms-linear-gradient(left, #5848fb 0%, #d045e9 100%);
+  background: linear-gradient(to right, #5848fb 0%, #d045e9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5848fb', endColorstr='#d045e9', GradientType=1 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+/*texto de competencia dentro de video*/
+/* bloque portada */
+.bg-coffee {
+  /*opacity: .15;*/
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  padding: 0;
+  margin: 0;
+  z-index: -1; }
+
+.introduccion {
+  padding: 0;
+  margin: 0; }
+
+.bloque-intro {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  /*background-color: #6cfffb;*/
+  /*opacity: 85;*/ }
+
+.thumbnail {
+  /*position: relative;*/
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.caption1 {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  width: 100%;
+  z-index: 5; }
+
+.hero-content {
+  position: relative;
+  top: 150px;
+  z-index: 5; }
+
+.leer-div {
+  margin-bottom: 3%; }
+
+#descripcionText {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: white; }
+
+#parrafoCompetencia {
+  padding-top: 20px;
+  margin-top: 0;
+  /*font-weight: normal;*/
+  /*font-style: normal;*/ }
+
+.competencia {
+  padding-bottom: 20px; }
+
+/* leer section */
+#practica1 {
+  height: 750px;
+  background-color: #f4f4f4; }
+
+.ante-titulo {
+  font-size: 23px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px; }
+
+/* implicaci├│n de las competencias section */
+#caracteristicas {
+  background-color: #4F4FD7;
+  padding-bottom: 0; }
+
+.comprension-titulo {
+  color: white;
+  font-size: 25px;
+  font-weight: bold; }
+
+.parrafo-comprension {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  color: white; }
+
+.comprension-div {
+  padding-top: 30px; }
+
+.parrafo-slidershow {
+  font-size: 14px !important;
+  color: black; }
+  @media all and (min-width: 1024px) {
+    .parrafo-slidershow {
+      font-size: 16px !important; } }
+
+/*ambito*/
+#ambito {
+  background-color: #f4f4f4; }
+
+.ante-body .img-div {
+  padding: 0;
+  margin-left: 0%;
+  position: relative;
+  height: 100%;
+  width: 32%;
+  border: 3px solid orange; }
+  .ante-body .img-div .img-box {
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+  @media all and (min-width: 580px) and (max-width: 1199px) {
+    .ante-body .img-div {
+      font-size: 13px; } }
+  @media all and (min-width: 1440px) {
+    .ante-body .img-div {
+      font-size: 16px; } }
+.ante-body .parrafo-box {
+  width: 68%;
+  height: 100%;
+  color: black;
+  background-color: #ffdb7d;
+  border: 1px solid #761c19; }
+  @media all and (min-width: 580px) and (max-width: 767px) {
+    .ante-body .parrafo-box h3 {
+      font-size: 14px;
+      font-weight: bold; }
+    .ante-body .parrafo-box p {
+      font-size: 13px; } }
+
+/*bibliografia*/
+#bibliografia {
+  background-color: #4F4FD7; }
+
+.icono-titulo {
+  margin-left: -4%; }
+  @media all and (min-width: 200px) {
+    .icono-titulo {
+      margin-left: -1%; } }
+  @media all and (min-width: 580px) and (max-width: 1023px) {
+    .icono-titulo {
+      margin-left: -1%;
+      margin-top: -3%;
+      font-size: 21px !important; } }
+
+@media all and (min-width: 580px) and (max-width: 1023px) {
+  .titulo-tema {
+    padding-left: 0%; } }
+
+@media all and (min-width: 580px) and (max-width: 1199px) {
+  .descargar-container {
+    margin-bottom: 3%; }
+
+  .descargar {
+    width: 400px;
+    position: relative; }
+    .descargar .text-content {
+      margin-left: 0;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      top: 25%; }
+
+  .btn-codaes {
+    float: right; } }
+@media all and (min-width: 1200px) {
+  .descargar-container {
+    padding-left: 0;
+    margin-left: 0; }
+
+  .tpasarMob {
+    margin-left: 0 !important; }
+
+  .icono-pasar {
+    margin-left: 0 !important; } }
+
+/*# sourceMappingURL=style-tema2.css.map */

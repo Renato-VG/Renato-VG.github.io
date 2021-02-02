@@ -1,0 +1,153 @@
+/** base */
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+.text-inSlider {
+  padding: 5%; }
+  @media all and (min-width: 1200px) {
+    .text-inSlider {
+      font-size: 16px !important; } }
+
+/** slider */
+.contenedor-slider {
+  position: relative; }
+  @media all and (min-width: 768px) and (max-width: 1023px) {
+    .contenedor-slider {
+      height: 650px; } }
+  @media screen and (min-width: 1024px) {
+    .contenedor-slider {
+      height: 400px; } }
+
+.slider {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto; }
+  .slider .slider__slide .ante-body {
+    height: 85%;
+    width: 97%;
+    margin-left: 1.5%;
+    margin-right: 1.5%; }
+    @media screen and (min-width: 580px) and (max-width: 767px) {
+      .slider .slider__slide .ante-body {
+        height: 95%; } }
+
+.slider--full {
+  width: 100vw;
+  height: 600px; }
+
+.slider--fixed {
+  width: 600px;
+  height: 400px; }
+
+.slider--proportional {
+  width: 960px;
+  height: auto; }
+
+.slider__inner {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #f4f4f4; }
+  .slider--full .slider__inner {
+    width: 100%;
+    height: 100%; }
+  .slider--fixed .slider__inner {
+    width: 100%;
+    height: 100%; }
+  .slider--proportional .slider__inner {
+    width: 100%;
+    height: 0; }
+  .slider--proportional--4x3 .slider__inner {
+    padding-top: 75%; }
+  .slider--proportional--5x4 .slider__inner {
+    padding-top: 80%; }
+  .slider--proportional--16x9 .slider__inner {
+    padding-top: 56.25%; }
+
+.slider__slides {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 500%;
+  height: 100%;
+  overflow-y: hidden;
+  transition: margin-left 0.4s;
+  padding-bottom: 3%; }
+
+.slider__slide {
+  display: block;
+  float: left;
+  position: relative;
+  width: 20%;
+  height: 100%;
+  /** background-image method */
+  background: no-repeat 50% 50%;
+  background-size: cover;
+  /** inline image method */ }
+
+.slider__radiobox-label {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer; }
+  @media all and (min-width: 768px) {
+    .slider__radiobox-label--item {
+      bottom: 6%;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 6px;
+      border-radius: 50%;
+      background: #C444F5;
+      opacity: 0.3;
+      transition: opacity 0.2s; }
+      .slider__radiobox-label--item:hover {
+        opacity: 0.5; }
+      .slider__radiobox-label--item--1 {
+        margin-left: -36px; }
+      .slider__radiobox-label--item--2 {
+        margin-left: -12px; }
+      .slider__radiobox-label--item--3 {
+        margin-left: 12px; }
+      .slider__radiobox-label--item--4 {
+        margin-left: 36px; } }
+  .slider__radiobox-label--prev, .slider__radiobox-label--next {
+    display: none;
+    top: 45%;
+    transform: translateY(-50%);
+    height: 0;
+    border: 20px solid #C444F5;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    opacity: 1;
+    z-index: 999;
+    transition: left 0.2s, right 0.2s, opacity 0.2s; }
+  .slider__radiobox-label--prev {
+    left: 0%;
+    border-left: 0;
+    border-right-width: 17px; }
+  .slider__radiobox-label--next {
+    right: 0%;
+    border-right: 0;
+    border-left-width: 17px; }
+
+.slider__radiobox {
+  display: none; }
+  .slider__radiobox--1:checked ~ .slider__slides {
+    margin-left: 0; }
+  .slider__radiobox--2:checked ~ .slider__slides {
+    margin-left: -100%; }
+  .slider__radiobox--3:checked ~ .slider__slides {
+    margin-left: -200%; }
+  .slider__radiobox--4:checked ~ .slider__slides {
+    margin-left: -300%; }
+  .slider__radiobox--1:checked + .slider__radiobox-label--item--1, .slider__radiobox--2:checked + .slider__radiobox-label--item--2, .slider__radiobox--3:checked + .slider__radiobox-label--item--3, .slider__radiobox--4:checked + .slider__radiobox-label--item--4 {
+    opacity: 1; }
+  .slider__radiobox--1:checked ~ .slider__radiobox-label--next--2, .slider__radiobox--2:checked ~ .slider__radiobox-label--prev--1, .slider__radiobox--2:checked ~ .slider__radiobox-label--next--3, .slider__radiobox--3:checked ~ .slider__radiobox-label--prev--2, .slider__radiobox--3:checked ~ .slider__radiobox-label--next--4, .slider__radiobox--4:checked ~ .slider__radiobox-label--prev--3
+   {
+    display: block; }
+
+/*# sourceMappingURL=simple-slider.css.map */

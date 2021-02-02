@@ -1,0 +1,156 @@
+.bullet-item {
+  display: list-item; /* This has to be "list-item"                                               */
+  list-style-type: disc; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;
+}
+
+.caption1 {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 5;
+}
+
+.div-pol{height: 600px; width:100%; position:absolute;  z-index:5;}
+@media all and (min-width: 1024px){#pol-1024{display:inline;}#pol-1200{display:none;}#pol-1440{display:none;}#pol-1920{display:none;}}
+@media all and (min-width: 1200px){#pol-1024{display:none;}#pol-1200{display:inline;}#pol-1440{display:none;}#pol-1920{display:none;}}
+@media all and (min-width: 1440px){#pol-1024{display:none;}#pol-1200{display:none;}#pol-1440{display:inline;}#pol-1920{display:none;}}
+@media all and (min-width: 1920px){#pol-1024{display:none;}#pol-1200{display:none;}#pol-1440{display:none;}#pol-1920{display:inline;}}
+
+.div-azul {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  background: rgba(88,72,251,1);
+  background: -moz-linear-gradient(left, rgba(88,72,251,1) 0%, rgba(243,68,228,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(88,72,251,1)), color-stop(100%, rgba(243,68,228,1)));
+  background: -webkit-linear-gradient(left, rgba(88,72,251,1) 0%, rgba(243,68,228,1) 100%);
+  background: -o-linear-gradient(left, rgba(88,72,251,1) 0%, rgba(243,68,228,1) 100%);
+  background: -ms-linear-gradient(left, rgba(88,72,251,1) 0%, rgba(243,68,228,1) 100%);
+  background: linear-gradient(to right, rgba(88,72,251,1) 0%, rgba(243,68,228,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5848fb', endColorstr='#f344e4', GradientType=1 );
+
+  width: 100%;
+  height: 600px;
+
+  @media all and (min-width: 580px){
+    height: 450px;
+  }
+  @media all and (min-width: 768px){
+    height: 600px;
+  }
+
+  border-right: 50px;
+  -webkit-clip-path: polygon(0 0, 83% 0, 46% 100%, 0% 100%);
+  clip-path: polygon(0 0, 83% 0, 46% 100%, 0% 100%);
+  z-index: 5;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  @media all and (min-width: 580px){
+    height: 450px;
+  }
+  @media all and (min-width: 768px){
+    height: 600px;
+  }
+}
+
+.hero-content {
+  position: relative;
+  top: 150px;
+  z-index: 5;
+}
+
+.thumbnail {
+  /*position: relative;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bloque-intro {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  /*background-color: #6cfffb;*/
+  /*opacity: 85;*/
+}
+
+.fa-gradient{
+  background: rgba(88,72,251,1);
+  background: -moz-linear-gradient(left, rgba(88,72,251,1) 0%, rgba(208,69,233,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(88,72,251,1)), color-stop(100%, rgba(208,69,233,1)));
+  background: -webkit-linear-gradient(left, rgba(88,72,251,1) 0%, rgba(208,69,233,1) 100%);
+  background: -o-linear-gradient(left, rgba(88,72,251,1) 0%, rgba(208,69,233,1) 100%);
+  background: -ms-linear-gradient(left, rgba(88,72,251,1) 0%, rgba(208,69,233,1) 100%);
+  background: linear-gradient(to right, rgba(88,72,251,1) 0%, rgba(208,69,233,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5848fb', endColorstr='#d045e9', GradientType=1 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#leer {
+  background-color: #f4f4f4;
+}
+
+.leer-div{
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.right{float:right;}
+#da-prev-arrow {
+  opacity: 0;
+}
+
+#comprension {
+  /*height: 750px;*/
+  background-color: #4F4FD7;
+}
+
+.comprension-div {
+  padding-top: 3%;
+}
+
+#prejuicios {
+  background-color: #4F4FD7;
+}
+
+/*niveles*/
+#niveles {
+  background-color: #f4f4f4;
+}
+
+#ambito {
+  height: 600px;
+  background-color: #f4f4f4;
+}
+
+/*bibliografia*/
+
+#bibliografia {
+  /*height: 600px;*/
+  background-color: #4F4FD7;
+}
+
+.icono-contenido{margin-left:-4%;}
+
+//tema 2, la escritura y su importancia
+.icono-titulo{margin-left:-4%;
+  @media all and (min-width: 200px){ margin-left: -1%;}
+  @media all and (min-width: 580px) and (max-width: 1023px){margin-left:-1%;margin-top:-3%;font-size:21px !important;}}
+.titulo-tema{@media all and (min-width: 580px) and (max-width: 1023px){padding-left: 0%;}}
+
+@media all and (min-width: 580px) and (max-width: 1199px){
+  .descargar-container{margin-bottom: 3%;}
+  .descargar{width:400px; position:relative;
+  .text-content{margin-left:0; position:absolute; margin-left: auto;margin-right: auto;left: 0;right: 0; top:25%;}}
+  .btn-codaes{float: right;}
+}
+@media all and (min-width: 1200px){
+  .descargar-container{padding-left:0; margin-left:0;}
+}
