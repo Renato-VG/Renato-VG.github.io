@@ -76,9 +76,21 @@
     #imagen-tema-4 {
         width: 30%;
     }
+	
+}
+
+@media screen and (max-width: 600px) {
+	#tabla-evaluacion{
+		
+		text-align:center;
+		width:360px;
+		height:340px;
+		overflow:auto;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 /*@media (min-width: 1200px) {
     
 }*/
+
