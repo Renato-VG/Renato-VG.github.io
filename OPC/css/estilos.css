@@ -92,6 +92,9 @@ br.responsivo {
 	br.responsivo {
 		display: inline; 
 	}
+	.moduloLargo {
+	font-size: 12px; 
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
