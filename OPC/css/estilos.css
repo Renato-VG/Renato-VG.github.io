@@ -7,6 +7,13 @@
 .sm-view{
    display:none;
 }
+.frances{
+	text-indent: -4em;
+	margin-left: 6em;
+}
+.frances2{
+	margin-left: 1em;
+}
 #imagen-introduccion{
     width:75%;
     height:75%;
@@ -95,6 +102,13 @@ br.responsivo {
 		height:340px;
 		overflow:auto;
 	}
+	.frances{
+		text-indent: 0em;
+		margin-left: 0em;
+	}
+	.frances2{
+	margin-left: 0em;
+}
 	br.responsivo {
 		display: inline; 
 	}
@@ -107,6 +121,9 @@ br.responsivo {
     }
 	.modulolargo{
 		font-size: 14px;
+	}
+	.modulolargo2{
+		font-size: 7px;
 	}
 	
 }

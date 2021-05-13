@@ -16,6 +16,18 @@
 	transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; 
 }
   
-
+.lineaTiempo{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.linea1 {
+  width: 20px;
+  height: 2000px;
+  background: rgb(182,174,238);
+  background: linear-gradient(to bottom, #d3fbfd, #aae5e5, #7fcfcc, #52b9b1, #0ba395);
+  position: absolute;
+}
   
   
