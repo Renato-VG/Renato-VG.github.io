@@ -1,6 +1,12 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 /* No media query for `xs` since this is the default in Bootstrap*/
+.lg-view{
+   display:inline-block;
+}
 
+.sm-view{
+   display:none;
+}
 #imagen-introduccion{
     width:75%;
     height:75%;
@@ -92,9 +98,17 @@ br.responsivo {
 	br.responsivo {
 		display: inline; 
 	}
-	.moduloLargo {
-	font-size: 12px; 
+	 .lg-view{
+       display:none;
+    }
+
+    .sm-view{
+       display:inline-block;
+    }
+	.modulolargo{
+		font-size: 14px;
 	}
+	
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
