@@ -1,0 +1,21 @@
+.gota-item:hover .gota-content svg {
+    transform: scale(0.97); 
+}
+.gota-content{
+	position: relative;
+}
+
+.gota-content-inner {
+	position: absolute;
+	top: 100%;
+	right: 35%;
+}
+
+.gota-content svg {
+	transform: scale(0.87);
+	transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; 
+}
+  
+
+  
+  
