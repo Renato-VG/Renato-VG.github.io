@@ -13,7 +13,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/style.min.css" />
     <link rel="stylesheet" href="css/estilos.css" />
-    <title>Evaluaciones para los aprendizajes</title>
+    <title>Evaluación para el aprendizaje desde un enfoque formativo y centrado en el estudiante </title>
   </head>
   <body>
     <!--Encabezado-->
@@ -24,7 +24,7 @@
             <div class="row no-gutters mb-1">
               <div class="col">
                 <img
-                  src="images/logo-profa.jpg"
+                  src="images/logo-profa.png"
                   class="logo d-inline mr-"
                   alt="mdb logo"
                 />
@@ -32,7 +32,8 @@
               <div
                 class="col text-secondary d-flex flex-column justify-content-center"
               >
-                <span class="h2 font-weight-bold"><em>Evaluaciones para los aprendizajes</em></span>
+				<span class="lg-view h5 font-weight-bold responsivo">Evaluación para el aprendizaje desde un enfoque formativo y centrado en el estudiante</span>
+				<span class="sm-view h2 font-weight-bold">Evaluación para el aprendizaje</span>
               </div>
             </div>
           </div>
@@ -101,14 +102,24 @@
               </li>
               <li class="list-group-item p-1">
                 <a href="index.html">
-                  <i class="fas fa-book text-primary"></i> Módulos:
+                  <i class="fas fa-book text-primary"></i> Fases:
                 </a>
               </li>
               <li class="list-group-item p-1">
-                <a href="modulo1.html" class="ml-3">
-                  <i class="fas fa-bookmark text-secondary"></i> 1. Antecedentes
-                  históricos del Karate Do
+                <a href="fase1.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> I. Concepto, funciones y momentos de la evaluación.
                 </a>
+              </li>
+			  <li class="list-group-item p-1">
+                <a href="fase2.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> II. La evaluación desde el enfoque formativo. 
+                </a>
+              </li>
+			  <li class="list-group-item p-1">
+                <a href="fase3.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> III. La ética en la evaluación.
+                </a>
+              </li>
             </ul>
           </div>
           <!--Menú en dispositivos móviles-->
@@ -130,14 +141,31 @@
 
       <a
         class="btn btn-lg btn-light btn-menu d-block"
-        href="modulo1.html"
+        href="fase1.html"
         data-toggle="tooltip"
         data-html="true"
-        title="<em>Nombre Módulo 1</em>"
+        title="<em>Concepto, funciones y momentos de la evaluación.</em>"
       >
-        <span class="font-weight-bold lead">1</span>
+        <span class="font-weight-bold lead">I</span>
       </a>
-
+	  <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="fase2.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>La evaluación desde el enfoque formativo. </em>"
+      >
+        <span class="font-weight-bold lead">II</span>
+      </a>
+	  <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="fase3.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>La ética en la evaluación.</em>"
+      >
+        <span class="font-weight-bold lead">III</span>
+      </a>
     </div>
     <!--/Menú Izquierdo-->
     <!--Video-->
@@ -149,13 +177,14 @@
       ></div>
       <div class="overlay"></div>
       <video
+		style="max-width: 100%; height:auto;"
         class="embed-responsive-item"
         playsinline="playsinline"
         autoplay="autoplay"
         muted="muted"
         loop="loop"
       >
-        <source src="videos/inter.mp4" type="video/mp4" />
+        <source src="Videos/BannerEA.mp4" type="video/mp4" />
       </video>
       <div class="container h-100">
         <div class="d-flex h-100 text-center align-items-center">
@@ -165,8 +194,8 @@
     </section>
     <!--/Video-->
     <!--Menu Principal-->
-    <section class="bg-light">
-      <div class="container contenedor-menu-contenido">
+    <section class="bg-light" style="background-color: #355ca7">
+      <div class="container contenedor-menu-contenido" style="background-color: #355ca7">
         <div class="row">
           <div class="col-4 col-md-2 text-center">
             <a href="#presentacion" class="indice">
@@ -174,7 +203,7 @@
                 <h5 class="card-title">
                   <i class="fas fa-info-circle fa-3x text-primary"></i>
                 </h5>
-                <p class="card-text">Presentaci&oacute;n</p>
+                <p class="card-text" style="color: #f4f4f4">Presentaci&oacute;n</p>
               </div>
             </a>
           </div>
@@ -184,7 +213,7 @@
                 <h5 class="card-title">
                   <i class="fas fa-user-circle fa-3x text-primary"></i>
                 </h5>
-                <p class="card-text">Autor de la Experiencia Educativa</p>
+                <p class="card-text" style="color: #f4f4f4">Autor de la Experiencia Educativa</p>
               </div>
             </a>
           </div>
@@ -194,7 +223,7 @@
                 <h5 class="card-title">
                   <i class="fas fa-book-reader fa-3x text-primary"></i>
                 </h5>
-                <p class="card-text">
+                <p class="card-text" style="color: #f4f4f4">
                   Unidad de <br />
                   Competencia
                 </p>
@@ -207,7 +236,7 @@
                 <h5 class="card-title">
                   <i class="fas fa-copy fa-3x text-primary"></i>
                 </h5>
-                <p class="card-text">Contenido</p>
+                <p class="card-text" style="color: #f4f4f4">Contenido</p>
               </div>
             </a>
           </div>
@@ -217,7 +246,7 @@
                 <h5 class="card-title">
                   <i class="fas fa-pencil-alt fa-3x text-primary"></i>
                 </h5>
-                <p class="card-text">
+                <p class="card-text" style="color: #f4f4f4">
                   Evaluaci&oacute;n de <br />
                   desempeño
                 </p>
@@ -230,7 +259,7 @@
                 <h5 class="card-title">
                   <i class="fas fa-address-card fa-3x text-primary"></i>
                 </h5>
-                <p class="card-text">
+                <p class="card-text" style="color: #f4f4f4">
                   Datos de <br />
                   Contacto
                 </p>
@@ -242,7 +271,7 @@
     </section>
     <!--/Menu Principal-->
     <!--Presentación-->
-    <section class="bg-primary text-white" id="presentacion">
+    <section class="bg-primary text-black" id="presentacion">
       <div
         class="scroll-indicator"
         id="seccion-presentacion"
@@ -256,18 +285,16 @@
         </div>
         <div class="row">
           <div class="col-12 col-lg-6">
-            <p>
-              Estimado profesor(a), este curso-taller pretende ser un espacio de reflexión y análisis sobre la manera en que llevamos a cabo la evaluación de los aprendizajes de los estudiantes en el programa educativo donde impartes docencia, con el propósito de repensar el sentido de la evaluación y valorar la posibilidad de transformarla en el contexto curricular y pedagógico de los procesos educativos del Modelo Educativo Institucional. El curso está estructurado en tres módulos, con una duración de cuatro semanas en el periodo intersemestral. En el  primer módulo adquirirás un marco referencial de los antecedentes, delimitación conceptual, funciones, momentos y elementos de la evaluación educativa. En el segundo, revisarás los principios de la evaluación desde un enfoque formativo para el aprendizaje, así como el rol del docente y las estrategias, técnicas e instrumentos aplicables desde este enfoque de evaluación. En el tercer módulo, reflexionarás sobre los principales problemas (políticos, personales, sociales, técnicos) relacionados con la evaluación, poniendo énfasis en sus aspectos éticos. Se emplearán como estrategias metodológicas organizadores de información, ensayos reflexivos, participación en diálogos en foro virtual y el diseño de una propuesta de evaluación. Consta de …  hrs. Teóricas y …   hrs prácticas, con un valor de … créditos.
-            </p>
+            <p>Estimado(a) profesor(a), este curso-taller pretende ser un espacio de reflexión y análisis acerca de la manera en que llevamos a cabo la evaluación de los aprendizajes de los estudiantes, con base en el programa educativo mediante el cual impartimos la docencia, con el propósito de repensar el sentido de la evaluación y valorar la posibilidad de transformarla en el contexto curricular y pedagógico de los procesos formativos del Modelo Educativo Institucional. El curso está estructurado en tres fases. En la primera fase, el académico adquirirá un marco referencial de los antecedentes, la delimitación conceptual, las funciones, los momentos y elementos de la evaluación educativa. En el segundo, revisará los principios de la evaluación desde un <span class="font-weight-bold">enfoque formativo para el aprendizaje</span>, así como el rol del docente y las estrategias, técnicas e instrumentos aplicables. En la tercera fase, reflexionará sobre los principales problemas (políticos, personales, sociales, técnicos) relacionados con la evaluación, poniendo énfasis en sus aspectos éticos. Se emplearán, como estrategias metodológicas, organizadores de información, ensayos reflexivos, participación en diálogos en foros virtuales y el diseño de una propuesta de evaluación. Esta experiencia educativa consta de 20 horas, con un valor de … créditos. </p>
           </div>
           <div class="col-12 col-sm-12 col-lg-6 d-flex align-items-center">
             <figure class="figure">
               <img
-                src="images/inicio/slide1.jpg"
+                src="images/fase0/1.png"
                 class="img-fluid figure-img"
                 alt="Imagen"
               />
-              <figcaption class="figure-caption text-right text-white">
+              <figcaption class="figure-caption text-right text-black">
                 [1]
               </figcaption>
             </figure>
@@ -277,11 +304,11 @@
     </section>
     <!--/Presentación-->
     <!--Autores-->
-    <section class="bg-secondary text-white" id="autores">
+    <section class="bg-light text-white" id="autores">
       <div
         class="scroll-indicator"
         id="seccion-autores"
-        data-scroll-indicator-title="Autores"
+        data-scroll-indicator-title="Autor"
       ></div>
       <div class="container contenedor-seccion">
         <div class="row">
@@ -300,10 +327,10 @@
         </div>
         <div class="row mt-2">
           <div class="col text-center">
-            <h5>Mtro. Jorge Chacón Reyes</h5>
+            <h5>Mtro. Jorge Chacón Reyes </h5>
             <p>
-              <a class="text-light enlace" href="mailto:jchacon@uv.mx"
-                >jchacon@uv.mx</a
+              <a class="text-white enlace" href="mailto:jchacon@uv.mx"
+                >jchacon@uv.mx </a
               >
             </p>
             <a
@@ -312,7 +339,7 @@
               class="text-white enlace font-weight-bold"
               data-target="#modal-instructor-uno"
             >
-                Académico 
+                Académico
             </a>
           </div>
         </div>
@@ -320,7 +347,7 @@
     </section>
     <!--/Autores-->
     <!--Unidad de Competencia-->
-    <section class="bg-light" id="unidad-competencia">
+    <section class="bg-primary text-black" id="unidad-competencia">
       <div
         class="scroll-indicator"
         id="seccion-unidad-competencia"
@@ -329,31 +356,35 @@
       <div class="container contenedor-seccion">
         <div class="row mb-4">
           <div class="col">
-            <h3><i class="fas fa-book-reader"></i> </h3>
+            <h3><i class="fas fa-book-reader"></i> Unidad de competencia</h3>
           </div>
         </div>
+		
         <div class="row flex-column-reverse flex-md-row">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-sm-12 col-lg-6 d-flex align-items-center">
             <figure class="figure">
               <img
-                src="images/inicio/slide2.jpg"
+				src="images/fase0/2.png"
                 class="img-fluid figure-img"
-                alt=""
+                alt="Imagen"
               />
-              <figcaption class="figure-caption">[2]</figcaption>
+              <figcaption class="figure-caption text-right text-black">
+                [2]
+              </figcaption>
             </figure>
           </div>
-          <div class="col-12 col-md-6 d-flex align-items-center">
+          <div class="col-12 col-sm-12 col-lg-6 d-flex align-items-center">
             <p>
-              El profesor reconoce la importancia de llevar a cabo una evaluación de los aprendizajes de los estudiantes desde un enfoque formativo, con base en el análisis de textos, la reflexión personal y el diálogo con sus pares, con actitud crítica, creativa y propositiva, a fin de transformar e innovar sus prácticas de evaluación en el aula.
+              El profesor reconoce la importancia de llevar a cabo la evaluación de los aprendizajes de los estudiantes desde un enfoque formativo, con base en el análisis de textos, la reflexión personal y el diálogo con sus pares, con una actitud crítica, creativa y propositiva, y con el fin de transformar e innovar sus prácticas de evaluación en el aula.
             </p>
           </div>
+		  <div class="col-3 col-md-1 d-flex align-items-center" ></div>
         </div>
       </div>
     </section>
     <!--Unidad de Competencia-->
     <!--Contenido-->
-    <section class="bg-primary" id="contenido">
+    <section class="bg-light" id="contenido">
         <div
             class="scroll-indicator"
             id="seccion-contenido"
@@ -366,28 +397,25 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col mx-5">
-                    <div class="row row-cols-2 row-cols-md-4">
+                <div class="col mx-4">
+                    <div class="row row-cols-1 row-cols-md-4">
                         <div class="col mb-4">
-                            <!-- Modulo 1 -->
                             <div class="card text-center h-100 bg-white">
                             <div class="view overlay">
                                 <div
-                                class="card-body bg-secondary d-flex align-items-center justify-content-center"
+                                class="card-body bg-secondary d-flex align-items-center justify-content-center "
                                 >
                                 <h3 class="card-title p-3">Fase I</h3>
                                 </div>
-                                <a href="modulo1.html">
+                                <a href="fase1.html">
                                 <div class="mask rgba-white-slight"></div>
                                 </a>
                             </div>
                             <div class="card-footer text-muted bg-transparent">
-                                Antecedentes, funciones y momentos de la evaluación (1 semana)</em>.
+                                Concepto, funciones y momentos de la evaluación.
                             </div>
                             </div>
                         </div>
-                        <!-- Modulo 1 -->
-						<!-- Modulo 1 -->
 						<div class="col mb-4">
                             <div class="card text-center h-100 bg-white">
                             <div class="view overlay">
@@ -396,30 +424,49 @@
                                 >
                                 <h3 class="card-title p-3">Fase II</h3>
                                 </div>
-                                <a href="modulo1.html">
+                                <a href="fase2.html">
                                 <div class="mask rgba-white-slight"></div>
                                 </a>
                             </div>
                             <div class="card-footer text-muted bg-transparent">
-                                La evaluación desde el enfoque formativo (2 y 3 semana)</em>.
+                                La evaluación desde el enfoque formativo. 
                             </div>
                             </div>
                         </div>
-                        <!-- Modulo 1 -->
 						<div class="col mb-4">
+                            <!-- Modulo 1 -->
+                            <div class="card text-center h-100 bg-white">
+								<div class="view overlay">
+									<div
+									class="card-body bg-secondary d-flex align-items-center justify-content-center"
+									>
+									<h3 class="card-title p-3">Fase III</h3>
+									</div>
+									<a href="fase3.html">
+									<div class="mask rgba-white-slight"></div>
+									</a>
+								</div>
+								<div class="card-footer text-muted bg-transparent">
+									La ética en la evaluación.
+								</div>
+                            </div>
+							
+                        </div>
+						<div class="col mb-4">
+                            <!-- Modulo 1 -->
                             <div class="card text-center h-100 bg-white">
                             <div class="view overlay">
                                 <div
                                 class="card-body bg-secondary d-flex align-items-center justify-content-center"
                                 >
-                                <h3 class="card-title p-3">Fase III</h3>
+                                <h3 class="card-title p-3">Fase IV</h3>
                                 </div>
-                                <a href="modulo1.html">
+                                <a href="fase4.html">
                                 <div class="mask rgba-white-slight"></div>
                                 </a>
                             </div>
                             <div class="card-footer text-muted bg-transparent">
-                                Problemas asociados a la evaluación (4 semana)</em>.
+                                Coraje y plenitud en la actividad docente. 
                             </div>
                             </div>
                         </div>
@@ -431,13 +478,13 @@
     </section>
     <!--/Contenido-->
     <!--Evaluacion del Desempeño-->
-    <section class="bg-secondary" id="evaluacion-desempeno">
+    <section class="bg-primary" id="evaluacion-desempeno">
       <div
         class="scroll-indicator"
         id="seccion-evaluacion-desempeno"
         data-scroll-indicator-title="Evaluaci&oacute;n de desempe&ntilde;o"
       ></div>
-      <div class="container contenedor-seccion text-white">
+      <div class="container contenedor-seccion text-black">
         <div class="row mb-4">
           <div class="col-12 col-md-4 col-lg-6">
             <h3>
@@ -450,18 +497,18 @@
             <a
               target="_blank"
               class="btn btn-light"
-              href="#"
+              href="pdfs/Precisiones_generales_ee_profa.pdf"
             >
-              <i class="fas fa-clipboard-list"></i> Lineamientos
+              <i class="fas fa-clipboard-list"></i> Precisiones
             </a>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <table class="table table-bordered text-white tabla-desempeno">
-              <thead class="bg-light text-dark">
+
+          <div id="tabla-evaluacion">
+            <table class="table table-bordered text-black tabla-desempeno">
+              <thead class="bg-light text-white">
                 <tr>
-                  <th class="text-center p-1">M&oacute;dulo</th>
+                  <th class="text-center p-1">Fases</th>
                   <th class="text-center p-1">
                     Evidencia(s) de <br />desempeño
                   </th>
@@ -470,26 +517,53 @@
               </thead>
               <tbody>
                 <tr>
-                  <td rowspan="2">
-                    Nombre M&oacute;dulo 1</em>.
+                  <td rowspan="3">
+                    I. Concepto, funciones y momentos de la evaluación.
                   </td>
                   <td>
-                    <p><strong>Actividad 1.</strong> Nombre Actividad 1.</p>
-                    <p>Tema: Nombre Tema 1</p>
+                    <p>Actividad 1. Concepto de evaluación.</p>
                   </td>
-                  <td class="text-center align-middle">n%</td>
+                  <td class="text-center align-middle">15%</td>
                 </tr>
-                <tr>
+				<tr>
+					<td>
+						<p>Actividad 2. Concepto de evaluación: delimitación conceptual.</p>
+					</td>
+					<td class="text-center align-middle">15%</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Actividad 3. Momentos y tipos de evaluación educativa.</p>
+					</td>
+					<td class="text-center align-middle">15%</td>
+				</tr>
+				<tr>
+                  <td rowspan="1">
+                    II. La evaluación desde el enfoque formativo. 
+                  </td>
                   <td>
-                    <p>
-                      <strong>Foro 1.</strong> Nombre Foro 1
-                    </p>
+                    <p>Foro 1. La evaluación desde el enfoque formativo. </p>
                   </td>
-                  <td class="text-center align-middle">n%</td>
+                  <td class="text-center align-middle">15%</td>
                 </tr>
-                
-
-
+				<tr>
+                  <td rowspan="1">
+                    III. La ética en la evaluación.
+                  </td>
+                  <td>
+                    <p>Actividad 4. Autoevaluación como docente-evaluador ético y formativo.</p>
+                  </td>
+                  <td class="text-center align-middle">10%</td>
+                </tr>
+				<tr>
+                  <td rowspan="1">
+                    Actividad integradora del curso. 
+                  </td>
+                  <td>
+                    <p>Propuesta de evaluación desde el enfoque formativo en el marco de una experiencia educativa.</p>
+                  </td>
+                  <td class="text-center align-middle">30%</td>
+                </tr>
                 <tr>
                   <td colspan="2" class="text-right font-weight-bold">TOTAL</td>
                   <td class="text-center font-weight-bold">100%</td>
@@ -497,12 +571,12 @@
               </tbody>
             </table>
           </div>
-        </div>
+
       </div>
     </section>
     <!--/Evaluacion del Desempeño-->
     <!--Datos de Contacto-->
-    <section class="bg-primary" id="datos-contacto">
+    <section class="bg-light" id="datos-contacto">
       <div
         class="scroll-indicator"
         id="seccion-datos-contacto"
@@ -516,22 +590,21 @@
         </div>
         <div class="row">
           <div class="col-6">
-            <h5>Entidad que oferta la EE</h5>
+            <h5>Entidad que oferta la EE del PROFA</h5>
             <p class="font-weight-bold">
               Departamento de Formación Académica
             </p>
             <p>
-              Correo:
-              <a class="text-light enlace" href="mailto:afaces@uv.mx"
-                >Correo: dca@uv.mx </a
-              >
+              <a  style="color:white;" href="mailto:dca@uv.mx"
+                >dca@uv.mx</a>
             </p>
             <p>
               Tel. 228 8421700<br />
-              Ext. 18602
+              Ext. 18601 y 18602
             </p>
           </div>
           <div class="col-6">
+            
           </div>
         </div>
         <!--Disclaimer-->
@@ -561,12 +634,8 @@
                   data-parent="#accordionExample"
                 >
                   <div class="card-body">
-                    <ul style="list-style-type: none">
-                      <li class="text-white">[1]</li>
-                      <li class="text-white">
-                        [2]
-                      </li>
-                    </ul>
+                      <p class="text-white" style="font-size: small; margin-left:15.65pt;text-indent:-15.65pt; margin:0.3em;"><sup style="font-size:60%;">1</sup>Max Fischer (2020). <em>Man in White Dress Shirt and Black Pants Standing Beside Woman in White Long Sleeve Shirt.</em> [Imagen]. <em>Pexels</em>. https://www.pexels.com/photo/man-in-white-dress-shirt-and-black-pants-standing-beside-woman-in-white-long-sleeve-shirt-5212648/</p>
+					  <p class="text-white" style="font-size: small; margin-left:15.65pt;text-indent:-15.65pt; margin:0.3em;"><sup style="font-size:60%;">2</sup><em>Kampus Production</em> (2020). <em>Multiethnic students and teacher listening report of student</em> [Imagen]. <em>Pexels</em>. https://www.pexels.com/photo/multiethnic-students-and-teacher-listening-report-of-student-5940836/</p>
                   </div>
                 </div>
               </div>
@@ -583,7 +652,7 @@
         <a
           class="btn btn-lg btn-outline-primary"
           target="_blank"
-          href="pdfs/programa_karate_do.pdf"
+          href="pdfs/programa_ASAU.pdf"
         >
           <span class="mr-3">Programa de la EE</span>
           <i class="fas fa-file-download fa-2x"></i>
@@ -607,7 +676,7 @@
     </section>
     <!--Logo Universidad Veracruzana-->
     <div class="fixed-bottom-right" id="button-up">
-      <a class="btn btn-success indice btn-sm p-3" href="#seccion-proposito">
+      <a class="btn btn-success indice btn-sm p-3" href="#presentacion">
         <i class="fas fa-arrow-alt-circle-up fa-2x"></i>
       </a>
     </div>
@@ -625,7 +694,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">
-              Mtro. Chacón Reyes Jorge 
+              Mtro. Jorge Chacón Reyes 
             </h5>
             <button
               type="button"
@@ -639,20 +708,15 @@
           <div class="modal-body">
             <h4>Estudios:</h4>
             <ul>
-              <li>Licenciado en Pedagogía por la Universidad Veracruzana</li>
-			  <li>Maestro en Educación por la Universidad Popular Autónoma de Veracruz</li>
+              <li>Licenciado en Pedagogía por la Universidad Veracruzana.</li>
+			  <li>Maestro en Educación por la Universidad Popular Autónoma de Veracruz. </li>
             </ul>
             <h4>Trabajo actual:</h4>
             <ul>
-              <li>
-                Profesor en el programa de posgrado en educación de la UPN, Unidad Xalapa
-              </li>
-			  <li>
-                Coordinador en cursos de formación de profesores de la Universidad Veracruzana en el área de investigación y en didáctica de la ética y filosofía del Instituto de Estudios de Bachillerato de Estado de Oaxaca
-              </li>
-			  <li>
-                Profesor de la Facultad de Pedagogía, región Xalapa, de la Universidad Veracruzana
-              </li>
+				<li> Profesor en el Programa de Posgrado en Educación de la UPN, unidad Xalapa. </li>
+				<li>Coordinador en cursos de formación de profesores en la Universidad Veracruzana en el área de Investigación.</li>
+				<li>Formador de docentes en didáctica de la ética y filosofía del Instituto de Estudios de Bachillerato de Estado de Oaxaca. </li>
+				<li>Profesor de la Facultad de Pedagogía, región Xalapa, de la Universidad Veracruzana.</li>
             </ul>
           </div>
           <div class="modal-footer">
