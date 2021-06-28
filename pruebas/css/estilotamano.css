@@ -1,0 +1,44 @@
+.elemento-linea {
+	position:absolute;
+	padding: none;
+}
+.e2{
+	left: 15%;
+}
+
+.elemento-linea:hover .elemento-content object {
+    transform: scale(0.97); 
+}
+.elemento-content{
+	display: inline-block;
+	position: relative; 
+	z-index: 1;
+}
+.elemento-content span{
+	display: inline-block;
+}
+.elemento-content object {
+	position: relative; 
+	z-index: -1;
+	width: 80%; 
+	height: 80%;
+	transform: scale(0.87);
+	transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; 
+}
+@media screen and (max-width: 1200px) {
+  .elemento-content object {
+    width: 75%; 
+	height: 75%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .elemento-content object {
+    width: 60%; 
+	height: 60%;
+  }
+}
+  
+
+
+  
+  
