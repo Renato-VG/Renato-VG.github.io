@@ -37,7 +37,7 @@
 }
 @media screen and (max-width: 600px) {
   .e2 {
-    left: 25%;
+    left: 80%;
   }
 }
 .elemento-linea:hover .elemento-content object {
