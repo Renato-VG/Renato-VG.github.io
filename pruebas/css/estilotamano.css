@@ -4,6 +4,13 @@
 	width: 80%; 
 	height: 80%;
 }
+.elemento-linea2 {
+	position:absolute;
+	padding: none;
+	width: 80%; 
+	height: 80%;
+	
+}
 .elemento-trans {
 	position:absolute;
 	padding: none;
@@ -24,11 +31,31 @@
 }
 .tran1{
 	left: 75%;
-	top: 10%;
-	
+	top: 10.5%;
+}
+.tran2{
+	left: 75%;
+	top: 36%;
+}
+.e6{
+	left: 50%;
+	top: 50%;
+}
+.e7{
+	left: 45%;
+}
+.e8{
+	left: 30%;
+}
+.e9{
+	left: 15%;
 }
 
+
 .elemento-linea:hover .elemento-content object {
+    transform: scale(0.97); 
+}
+.elemento-linea2:hover .elemento-content object {
     transform: scale(0.97); 
 }
 .elemento-trans:hover .elemento-content object {
@@ -41,6 +68,7 @@
 }
 .elemento-content span{
 	display: inline-block;
+	text-align:center
 }
 .elemento-content object {
 	position: relative; 
@@ -53,6 +81,10 @@
     width: 30%; 
 	height: 30%;
   }
+  .elemento-linea2 object {
+    width: 30%; 
+	height: 30%;
+  }
   .elemento-trans object {
     width: 30%; 
 	height: 30%;
@@ -60,6 +92,10 @@
 }
 @media screen and (max-width: 2200px) {/* reduce zoom computadora dafie*/
   .elemento-linea object {
+    width: 28%; 
+	height: 28%;
+  }
+  .elemento-linea2 object {
     width: 28%; 
 	height: 28%;
   }
@@ -74,6 +110,11 @@
     width: 25%; 
 	height: 25%;
   }
+  .elemento-linea2 object {
+    width: 25%; 
+	height: 25%;
+  }
+  
   .elemento-trans object {
     width: 30%; 
 	height: 30%;
@@ -84,6 +125,11 @@
     width: 23%; 
 	height: 23%;
   }
+  .elemento-linea2 object {
+    width: 23%; 
+	height: 23%;
+  }
+  
   .elemento-trans object {
     width: 30%; 
 	height: 30%;
