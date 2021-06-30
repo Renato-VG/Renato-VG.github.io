@@ -66,18 +66,27 @@
   .e5 {
 	  left: 56%;
   }
+  .e6 {
+	  left: 54%;
+	  top: 23.3%;
+  }
   .tran1 {
 	  left: 67%;
-	  top: 3%;
+	  top: 4%;
+  }
+  .tran2 {
+	  left: 66.7%;
+	  top: 19%;
   }
   .elemento-content span object {
 	  width: 330px;
 	  height: 250px;
   }
   .tran-content span object {
-	  width: 400px;
-	  height: 340px;
+	  width: 377px;
+	  height: 317px;
   }
+
   @media screen and (max-width: 1500px) {/*pantalla más pequeña*/
   .e1 {
 	  left: 0%;
