@@ -1,8 +1,6 @@
 .elemento-linea {
 	position:absolute;
 	padding: none;
-	
-	
 }
 .elemento-linea:hover .elemento-content object {
     transform: scale(0.97); 
@@ -21,8 +19,6 @@
 	transform: scale(0.87);
 	transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; 
 }
-
-
 @media screen and (max-width: 2400px) {
   .e1 {
 	  left: 0%;
