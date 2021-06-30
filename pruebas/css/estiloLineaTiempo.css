@@ -84,6 +84,10 @@
 	  left: 67%;
 	  top: 6.5%;
   }
+  .tran2 {
+	  left: 67.3%;
+	  top: 20%;
+  }
   .elemento-content span object {
 	  width: 360px;
 	  height: 280px;
@@ -117,7 +121,7 @@
 	  top: 4%;
   }
   .tran2 {
-	  left: 66.7%;
+	  left: 67%;
 	  top: 19%;
   }
   .elemento-content span object {
@@ -148,6 +152,10 @@
   .tran1 {
 	  left: 77%;
 	  top: 2%;
+  }
+  .tran2 {
+	  left: 77%;
+	  top: 18%;
   }
   .elemento-content span object {
 	  width: 300px;
