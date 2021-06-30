@@ -52,9 +52,17 @@
   .e5 {
 	  left: 48%;
   }
+  .tran1 {
+	  left: 67%;
+	  top: 4%;
+  }
   .elemento-content span object {
 	  width: 360px;
 	  height: 280px;
+  }
+  .tran-content span object {
+	  width: 377px;
+	  height: 317px;
   }
 @media screen and (max-width: 2100px) {
   .e1 {
@@ -72,9 +80,17 @@
   .e5 {
 	  left: 56%;
   }
+  .tran1 {
+	  left: 67%;
+	  top: 4%;
+  }
   .elemento-content span object {
 	  width: 360px;
 	  height: 280px;
+  }
+  .tran-content span object {
+	  width: 377px;
+	  height: 317px;
   }
 @media screen and (max-width: 1900px) {/* computadora dafie*/
   .e1 {
@@ -129,10 +145,19 @@
   .e5 {
 	  left: 64%;
   }
+  .tran1 {
+	  left: 67%;
+	  top: 4%;
+  }
   .elemento-content span object {
 	  width: 300px;
 	  height: 220px;
   }
+  .tran-content span object {
+	  width: 377px;
+	  height: 317px;
+  }
+
   @media screen and (max-width: 1000px) {/*pantalla más pequeña*/
   .e1 {
 	  left: 0%;
@@ -149,11 +174,21 @@
   .e5 {
 	  left: 80%;
   }
+  .tran1 {
+	  left: 67%;
+	  top: 4%;
+  }
   
   .elemento-content span object {
 	  width: 300px;
 	  height: 220px;
   }
+  .tran-content span object {
+	  width: 377px;
+	  height: 317px;
+  }
+
+}
 
 
 
