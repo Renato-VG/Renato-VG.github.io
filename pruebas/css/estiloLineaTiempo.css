@@ -46,6 +46,12 @@
   .e3 {
 	  left: 24%;
   }
+  .e4 {
+	  left: 36%;
+  }
+  .e5 {
+	  left: 48%;
+  }
   .elemento-content span object {
 	  width: 360px;
 	  height: 280px;
@@ -59,6 +65,12 @@
   }
   .e3 {
 	  left: 28%;
+  }
+  .e4 {
+	  left: 42%;
+  }
+  .e5 {
+	  left: 56%;
   }
   .elemento-content span object {
 	  width: 360px;
@@ -111,6 +123,12 @@
   .e3 {
 	  left: 32%;
   }
+  .e4 {
+	  left: 48%;
+  }
+  .e4 {
+	  left: 64%;
+  }
   .elemento-content span object {
 	  width: 300px;
 	  height: 220px;
@@ -125,6 +143,13 @@
   .e3 {
 	  left: 40%;
   }
+  .e4 {
+	  left: 60%;
+  }
+  .e5 {
+	  left: 80%;
+  }
+  
   .elemento-content span object {
 	  width: 300px;
 	  height: 220px;
