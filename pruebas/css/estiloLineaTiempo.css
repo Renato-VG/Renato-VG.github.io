@@ -5,6 +5,9 @@
 .elemento-linea:hover .elemento-content object {
     transform: scale(0.97); 
 }
+.elemento-linea:hover .tran-content object {
+    transform: scale(0.97); 
+}
 .elemento-content{
 	position: relative; 
 	z-index: 1;
@@ -14,6 +17,20 @@
 	text-align:center
 }
 .elemento-content object {
+	position: relative; 
+	z-index: -1;
+	transform: scale(0.87);
+	transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; 
+}
+.tran-content{
+	position: relative; 
+	z-index: 1;
+}
+.tran-content span{
+	display: inline-block;
+	text-align:center
+}
+.tran-content object {
 	position: relative; 
 	z-index: -1;
 	transform: scale(0.87);
@@ -49,9 +66,17 @@
   .e5 {
 	  left: 56%;
   }
+  .tran1 {
+	  left: 69%;
+	  top: 9%;
+  }
   .elemento-content span object {
 	  width: 330px;
 	  height: 250px;
+  }
+  .tran-content span object {
+	  width: 360px;
+	  height: 300px;
   }
   @media screen and (max-width: 1500px) {/*pantalla más pequeña*/
   .e1 {
