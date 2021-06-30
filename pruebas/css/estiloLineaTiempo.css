@@ -36,7 +36,7 @@
 	transform: scale(0.87);
 	transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; 
 }
-@media screen and (max-width: 2400px) {
+@media screen and (max-width: 2500px) {
   .e1 {
 	  left: 0%;
   }
@@ -45,6 +45,20 @@
   }
   .e3 {
 	  left: 24%;
+  }
+  .elemento-content span object {
+	  width: 360px;
+	  height: 280px;
+  }
+@media screen and (max-width: 2100px) {
+  .e1 {
+	  left: 0%;
+  }
+  .e2 {
+	  left: 14%;
+  }
+  .e3 {
+	  left: 28%;
   }
   .elemento-content span object {
 	  width: 360px;
