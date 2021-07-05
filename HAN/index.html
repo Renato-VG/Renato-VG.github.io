@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/easyScrollDots.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <title>Curso-Taller: Iniciativa hospital amigo del niño</title>
+  </head>
+  <body>
+    <!--Encabezado-->
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg plantilla" id="encabezado">
+        <div class="container">
+          <div class="navbar-brand pb-0">
+            <div class="row no-gutters mb-1">
+              <div class="col">
+                <img
+                  src="images/logo_EC.jpg"
+                  class="logo d-inline mr-"
+                  alt="mdb logo"
+                />
+              </div>
+              <div
+                class="col text-secondary d-flex flex-column justify-content-center"
+              >
+                <span class="h2 font-weight-bold">Curso-Taller: Iniciativa hospital amigo del niño</span>
+              </div>
+            </div>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="dropdown"
+            data-target="#menu-indice"
+            aria-controls="menu-indice"
+            aria-expanded="false"
+            aria-label="Dropdown"
+          >
+            <i class="fas fa-align-justify text-dark"></i>
+          </button>
+          <!--Menú en dispositivos móviles-->
+          <div class="dropdown-menu dropdown-menu-right" id="menu-indice">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-secondary text-center p-1">
+                <a
+                  class="text-white"
+                  href="https://www.uv.mx/"
+                  target="_blank"
+                  alt="Ir a Universidad Veracruzana"
+                >
+                  Universidad Veracruzana
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="#inicio" class="indice">
+                  <i class="fas fa-home text-primary"></i> Inicio:
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="#presentacion" class="ml-3 indice">
+                  <i class="fas fa-info-circle text-secondary"></i>
+                  Objetivo General
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="#autores" class="ml-3 indice">
+                  <i class="fas fa-user-circle text-secondary"></i> Autora
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="#unidad-competencia" class="ml-3 indice">
+                  <i class="fas fa-book-reader text-secondary"></i> Unidad de
+                  Competencia
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="#contenido" class="ml-3 indice">
+                  <i class="fas fa-copy text-secondary"></i> Contenido
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="#evaluacion-desempeno" class="ml-3 indice">
+                  <i class="fas fa-pencil-alt text-secondary"></i> Evaluación
+                  de desempeño
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="#datos-contacto" class="ml-3 indice">
+                  <i class="fas fa-address-card text-secondary"></i> Datos de
+                  Contacto
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="index.html">
+                  <i class="fas fa-book text-primary"></i> :
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="1.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> I. 
+                </a>
+              </li>
+			  <li class="list-group-item p-1">
+                <a href="2.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> II. 
+                </a>
+              </li>
+			  <li class="list-group-item p-1">
+                <a href="3.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> III. 
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--Menú en dispositivos móviles-->
+        </div>
+      </nav>
+    </header>
+    <!--/Encabezado-->
+    <!--Menú Izquierdo-->
+    <div id="sticky-menu" class="d-none d-lg-block d-lg-flex flex-column">
+      <a
+        class="btn btn-lg btn-primary btn-menu"
+        href="#!"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Inicio</em>"
+      >
+        <i class="fas fa-home fa-2x"></i>
+      </a>
+
+      <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="1.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em></em>"
+      >
+        <span class="font-weight-bold lead">I</span>
+      </a>
+	  <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="2.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em></em>"
+      >
+        <span class="font-weight-bold lead">II</span>
+      </a>
+	  <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="3.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em></em>"
+      >
+        <span class="font-weight-bold lead">III</span>
+      </a>
+
+    </div>
+    <!--/Menú Izquierdo-->
+    <!--Video-->
+    <section id="video">
+      <div
+        class="scroll-indicator"
+        id="seccion-video"
+        data-scroll-indicator-title="Inicio"
+      ></div>
+      <div class="overlay"></div>
+      <video
+		style="max-width: 100%; height:auto;"
+        class="embed-responsive-item"
+        playsinline="playsinline"
+        autoplay="autoplay"
+        muted="muted"
+        loop="loop"
+      >
+        <source src="Videos/Banner.mp4" type="video/mp4" />
+      </video>
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white"></div>
+        </div>
+      </div>
+    </section>
+    <!--/Video-->
+    <!--Menu Principal-->
+    <section class="bg-light">
+      <div class="container contenedor-menu-contenido">
+        <div class="row">
+          <div class="col-4 col-md-2 text-center">
+            <a href="#presentacion" class="indice">
+              <div class="card border-0 seccion">
+                <h5 class="card-title">
+                  <i class="fas fa-info-circle fa-3x text-primary"></i>
+                </h5>
+                <p class="card-text">Presentaci&oacute;n</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-4 col-md-2 text-center">
+            <a href="#autores" class="indice">
+              <div class="card border-0 seccion">
+                <h5 class="card-title">
+                  <i class="fas fa-user-circle fa-3x text-primary"></i>
+                </h5>
+                <p class="card-text">Autora de la Experiencia Educativa</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-4 col-md-2 text-center">
+            <a href="#unidad-competencia" class="indice">
+              <div class="card border-0 seccion">
+                <h5 class="card-title">
+                  <i class="fas fa-book-reader fa-3x text-primary"></i>
+                </h5>
+                <p class="card-text">
+                  Unidad de <br />
+                  Competencia
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-4 col-md-2 text-center">
+            <a href="#contenido" class="indice">
+              <div class="card border-0 seccion">
+                <h5 class="card-title">
+                  <i class="fas fa-copy fa-3x text-primary"></i>
+                </h5>
+                <p class="card-text">Contenido</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-4 col-md-2 text-center">
+            <a href="#evaluacion-desempeno" class="indice">
+              <div class="card border-0 seccion">
+                <h5 class="card-title">
+                  <i class="fas fa-pencil-alt fa-3x text-primary"></i>
+                </h5>
+                <p class="card-text">
+                  Evaluaci&oacute;n de <br />
+                  desempeño
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-4 col-md-2 text-center">
+            <a href="#datos-contacto" class="indice">
+              <div class="card border-0 seccion">
+                <h5 class="card-title">
+                  <i class="fas fa-address-card fa-3x text-primary"></i>
+                </h5>
+                <p class="card-text">
+                  Datos de <br />
+                  Contacto
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/Menu Principal-->
+    <!--Presentación-->
+    <section class="bg-primary text-white" id="presentacion">
+      <div
+        class="scroll-indicator"
+        id="seccion-presentacion"
+        data-scroll-indicator-title="Presentaci&oacute;n"
+      ></div>
+      <div class="container contenedor-seccion">
+        <div class="row mb-4">
+          <div class="col">
+            <h3><i class="fas fa-info-circle"></i>Objetivo general</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <p>
+				Capacitar al personal de salud para asegurar que las madres y los recién nacidos reciban atención oportuna y apropiada antes de y durante su estadía en los servicios de salud para permitir el inicio de la lactancia materna.
+            </p>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-6 d-flex align-items-center">
+            <figure class="figure">
+              <img
+                src="images/presentacion/1.jpg"
+                class="img-fluid figure-img"
+                alt="Imagen"
+              />
+              <figcaption class="figure-caption text-right text-white">
+                [1]
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/Presentación-->
+	<!--Unidad de Competencia-->
+    <section class="bg-light" id="unidad-competencia">
+      <div
+        class="scroll-indicator"
+        id="seccion-unidad-competencia"
+        data-scroll-indicator-title="Unidad de competencia"
+      ></div>
+      <div class="container contenedor-seccion" style="text-align: center;">
+        <div class="row mb-4">
+          <div class="col">
+            <h3><i class="fas fa-book-reader"></i> Política del curso</h3>
+          </div>
+        </div>
+		
+        <div class="row flex-column-reverse flex-md-row">
+		<div class="col-1 col-sm-0 col-lg-1 d-flex align-items-center"></div>
+          <div class="col-02 col-sm-12 col-lg-10 d-flex align-items-center">
+            <p>
+			<ul style="list-style-type:none">
+				<li><span class="font-weight-bold">1.</span> Basado en la evidencia científica más actualizada.</li>
+				<li><span class="font-weight-bold">2.</span> Apegado a las normas éticas de confidencialidad.</li>
+				<li><span class="font-weight-bold">3.</span> Apegado a los principios de no discriminación.</li>
+				<li><span class="font-weight-bold">4.</span> Los términos madre, materno, maternal o amamantamiento usados en este curso no excluyen a personas transgénero o padres no binarios que deseen amamantar o proveer de leche humana a sus hijos.</li>
+				<li><span class="font-weight-bold">5.</span> Reconoce que el vínculo amoroso es independiente del método de alimentación del infante.</li>
+				<li><span class="font-weight-bold">6.</span> Respeta la diversidad de condiciones de todas las madres lactantes.</li>
+				<li><span class="font-weight-bold">7.</span> Libre de conflictos de interés apegado al Código Internacional de Comercialización de Sucedáneos de la Leche Materna.</li>
+				<li><span class="font-weight-bold">8.</span> La constancia se otorgará cuando se tenga evidencia de:
+					<ul style="list-style-type:none; font-size: 90%">
+						<li><span class="font-weight-bold">a.</span> Haber revisado todo el contenido colocado en Eminus 4.0.</li>
+						<li><span class="font-weight-bold">b.</span> Tener una calificación de 8 (en la escala de 2 a 8) en todas las evidencias de desempeño.</li>
+						<li><span class="font-weight-bold">c.</span> Haber enviado el reporte de la práctica 1: Observación, apoyo, seguimiento y evaluación del amamantamiento.</li>
+						<li><span class="font-weight-bold">d.</span> Haber enviado el reporte de la práctica 2: Historia clínica de lactancia.</li>
+					</ul>
+				</li>
+			</ul>
+            </p>
+          </div>
+		<div class="col-1 col-sm-0 col-lg-1 d-flex align-items-center"></div>
+        </div>
+      </div>
+    </section>
+    <!--Unidad de Competencia-->
+	<!--Contenido-->
+    <section class="bg-primary" id="contenido">
+        <div
+            class="scroll-indicator"
+            id="seccion-contenido"
+            data-scroll-indicator-title="Contenido">
+        </div>
+        <div class="container contenedor-seccion text-white">
+            <div class="row mb-4">
+                <div class="col">
+                    <h3><i class="fas fa-copy"></i> Temario</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mx-4">
+                    <div class="row row-cols-1 row-cols-md-4">
+                        <div class="col mb-4">
+                            <div class="card text-center h-100 bg-white">
+                            <div class="view overlay">
+                                <div
+                                class="card-body bg-secondary d-flex align-items-center justify-content-center"
+                                >
+                                <h3 class="card-title p-3">Sesión I</h3>
+                                </div>
+                                <a href="modulo1.html">
+                                <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted bg-transparent">
+                                Sucesos históricos de la promoción, protección y apoyo a la lactancia materna.
+                            </div>
+                            </div>
+                        </div>
+						<div class="col mb-4">
+                            <div class="card text-center h-100 bg-white">
+                            <div class="view overlay">
+                                <div
+                                class="card-body bg-secondary d-flex align-items-center justify-content-center"
+                                >
+                                <h3 class="card-title p-3">Sesión II</h3>
+                                </div>
+                                <a href="modulo2.html">
+                                <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted bg-transparent">
+                                Importancia de la lactancia materna y riesgos de la alimentación artificial.
+                            </div>
+                            </div>
+                        </div>
+						<div class="col mb-4">
+                            <!-- Modulo 1 -->
+                            <div class="card text-center h-100 bg-white">
+                            <div class="view overlay">
+                                <div
+                                class="card-body bg-secondary d-flex align-items-center justify-content-center"
+                                >
+                                <h3 class="card-title p-3">Sesión III</h3>
+                                </div>
+                                <a href="modulo3.html">
+                                <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted bg-transparent">
+                                Recomendaciones internacionales sobre alimentación infantil y definiciones de lactancia materna y amamantamiento.
+                            </div>
+                            </div>
+                        </div>
+						<div class="col mb-4">
+                            <!-- Modulo 1 -->
+                            <div class="card text-center h-100 bg-white">
+                            <div class="view overlay">
+                                <div
+                                class="card-body bg-secondary d-flex align-items-center justify-content-center"
+                                >
+                                <h3 class="card-title p-3">Sesión IV</h3>
+                                </div>
+                                <a href="modulo3.html">
+                                <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted bg-transparent">
+                                Encuestas sobre lactancia materna.
+                            </div>
+                            </div>
+                        </div>
+						
+                    </div>
+                </div>
+            </div>
+			<div class="row">
+                <div class="col mx-4">
+                    <div class="row row-cols-1 row-cols-md-4">
+                        <div class="col mb-4">
+                            <div class="card text-center h-100 bg-white">
+                            <div class="view overlay">
+                                <div
+                                class="card-body bg-secondary d-flex align-items-center justify-content-center"
+                                >
+                                <h3 class="card-title p-3">Sesión V</h3>
+                                </div>
+                                <a href="modulo1.html">
+                                <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted bg-transparent">
+                                Fisiología de la lactancia materna.
+                            </div>
+                            </div>
+                        </div>
+						<div class="col mb-4">
+                            <div class="card text-center h-100 bg-white">
+                            <div class="view overlay">
+                                <div
+                                class="card-body bg-secondary d-flex align-items-center justify-content-center"
+                                >
+                                <h3 class="card-title p-3">Sesión VI</h3>
+                                </div>
+                                <a href="modulo2.html">
+                                <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted bg-transparent">
+                                Apoyo en la primera hora de vida y evaluación del amamantamiento.
+                            </div>
+                            </div>
+                        </div>
+						<div class="col mb-4">
+                            <!-- Modulo 1 -->
+                            <div class="card text-center h-100 bg-white">
+                            <div class="view overlay">
+                                <div
+                                class="card-body bg-secondary d-flex align-items-center justify-content-center"
+                                >
+                                <h3 class="card-title p-3">Sesión VII</h3>
+                                </div>
+                                <a href="modulo3.html">
+                                <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted bg-transparent">
+                                Niveles de atención en lactancia materna y apoyo práctico en los pasos 4 al 10 de la guía IHAN 2018.
+                            </div>
+                            </div>
+                        </div>
+						<div class="col mb-4">
+                            <!-- Modulo 1 -->
+                            <div class="card text-center h-100 bg-white">
+                            <div class="view overlay">
+                                <div
+                                class="card-body bg-secondary d-flex align-items-center justify-content-center"
+                                >
+                                <h3 class="card-title p-3">Sesión VIII</h3>
+                                </div>
+                                <a href="modulo3.html">
+                                <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted bg-transparent">
+                                Lactancia en el contexto de la pandemia de COVID-19.
+                            </div>
+                            </div>
+                        </div>
+						
+                    </div>
+                </div>
+            </div>
+			<div class="row">
+                <div class="col mx-4">
+                    <div class="row row-cols-1 row-cols-md-4">
+						<div class="col mb-4">
+
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card text-center h-100 bg-white">
+                            <div class="view overlay">
+                                <div
+                                class="card-body bg-secondary d-flex align-items-center justify-content-center"
+                                >
+                                <h3 class="card-title p-3">Sesión IX</h3>
+                                </div>
+                                <a href="modulo1.html">
+                                <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted bg-transparent">
+                                Ética en la protección, promoción y apoyo de la lactancia materna.
+                            </div>
+                            </div>
+                        </div>
+						<div class="col mb-4">
+                            <div class="card text-center h-100 bg-white">
+                            <div class="view overlay">
+                                <div
+                                class="card-body bg-secondary d-flex align-items-center justify-content-center"
+                                >
+                                <h3 class="card-title p-3">Sesión X</h3>
+                                </div>
+                                <a href="modulo2.html">
+                                <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted bg-transparent">
+                                Conclusiones del curso.
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/Contenido-->
+    <!--Autores-->
+    <section class="bg-secondary text-white" id="autores">
+      <div
+        class="scroll-indicator"
+        id="seccion-autores"
+        data-scroll-indicator-title="Autoras"
+      ></div>
+      <div class="container contenedor-seccion">
+        <div class="row mb-3">
+          <div class="col text-center">
+            <h3>Autoras de la Experiencia Educativa (EE)</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <div class="row">
+              <div class="col-6 offset-3">
+                <img
+                  src="images/inicio/experto2.jpg"
+                  class="img-thumbnail"
+                  id="imagen-experto1"
+                />
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col text-center">
+                <h5>Dra. Clara Luz Sampieri Ramírez </h5>
+                <p>
+                  <a class="text-light enlace" href="mailto:csampieri@uv.mx"
+                    >csampieri@uv.mx</a
+                  >
+                </p>
+                <a
+                  href="#"
+                  data-toggle="modal"
+                  class="text-white enlace"
+                  data-target="#modal-instructor-cuatro"
+                >
+                  Académica
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col text-center">
+            <div class="row">
+              <div class="col-6 offset-3">
+                <img
+                  src="images/inicio/experto1.jpg"
+                  class="img-thumbnail"
+                  id="imagen-experto-1"
+                />
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col text-center">
+                <h5>Dra. Ma. de Lourdes Mota Morales</h5>
+                <p>
+                  <a class="text-light enlace" href="mailto:lmota@uv.mx"
+                    >lmota@uv.mx /a
+                  >
+                </p>
+                <a
+                  href="#"
+                  data-toggle="modal"
+                  class="text-white enlace"
+                  data-target="#modal-instructor-dos"
+                >
+                Académica
+                </a>
+              </div>
+            </div>
+          </div>
+		  <div class="col text-center">
+            <div class="row">
+              <div class="col-6 offset-3">
+                <img
+                  src="images/inicio/experto3.jpg"
+                  class="img-thumbnail"
+                  id="imagen-experto1"
+                />
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col text-center">
+                <h5>Dra. Hilda Montero Ladrón de Guevara</h5>
+                <p>
+                  <a class="text-light enlace" href="mailto:hmontero@uv.mx "
+                    >hmontero@uv.mx </a
+                  >
+                </p>
+                <a
+                  href="#"
+                  data-toggle="modal"
+                  class="text-white enlace"
+                  data-target="#modal-instructor-cuatro"
+                >
+                  Académica
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/Autores-->
+    
+    <!--Evaluacion del Desempeño-->
+    <section class="bg-secondary" id="evaluacion-desempeno">
+      <div
+        class="scroll-indicator"
+        id="seccion-evaluacion-desempeno"
+        data-scroll-indicator-title="Evaluaci&oacute;n de desempe&ntilde;o"
+      ></div>
+      <div class="container contenedor-seccion text-white">
+        <div class="row mb-4">
+          <div class="col-12 col-md-4 col-lg-6">
+            <h3>
+              <i class="fas fa-copy"></i> Evaluaci&oacute;n de desempe&ntilde;o
+            </h3>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 d-flex align-items-start">
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 d-flex align-items-start">
+            <a
+              target="_blank"
+              class="btn btn-light"
+              href="pdfs/lineamientos_generales_ee_afel.pdf"
+            >
+              <i class="fas fa-clipboard-list"></i> Lineamientos
+            </a>
+          </div>
+        </div>
+          <div id="tabla-evaluacion">
+            <table class="table table-bordered text-white tabla-desempeno">
+              <thead class="bg-light text-dark">
+                <tr>
+                  <th class="text-center p-1">Temas</th>
+                  <th class="text-center p-1">
+                    Evidencia(s) de <br />desempeño
+                  </th>
+                  <th class="text-center p-1">Porcentaje</th>
+                </tr>
+              </thead>
+              <tbody>
+				<tr>
+					<td>Los temas teóricos serán evaluados mediante 10 pruebas cortas y los prácticos mediante dos reportes de práctica. Los criterios se pueden revisar con mayor detalle en el archivo “Criterios de acreditación y evaluación del curso”.</td>
+					<td><p>Pruebas cortas</p> <p>Reporte de prácticas</p></td>
+					<td>
+						<p>Resolución de las pruebas cortas (20%).</p>
+						<p>Práctica 1 Observación, apoyo, seguimiento y evaluación del amamantamiento (60%).</p>
+						<p>Historia clínica de lactancia (20%).</p>
+					</td>
+				</tr>
+                <tr>
+                  <td colspan="2" class="text-right font-weight-bold">TOTAL</td>
+                  <td class="text-center font-weight-bold">100%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+      </div>
+    </section>
+    <!--/Evaluacion del Desempeño-->
+    <!--Datos de Contacto-->
+    <section class="bg-primary" id="datos-contacto">
+      <div
+        class="scroll-indicator"
+        id="seccion-datos-contacto"
+        data-scroll-indicator-title="Datos de Contacto"
+      ></div>
+      <div class="container contenedor-seccion text-white">
+        <div class="row mb-4">
+          <div class="col">
+            <h3><i class="fas fa-address-card"></i> Datos de Contacto</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <h5>Departamento de Educación Continua </h5>
+            <p class="font-weight-bold">
+              Mtra. María Luz Pérez Lorenzo
+            </p>
+            <p>
+              Correo: <a class="text-light enlace" href="mailto:luzperez02@uv.mx"
+                >luzperez02@uv.mx</a
+              >
+            </p>
+            <p>
+              Tel. 2288421700<br />
+              Ext. 18904
+            </p>
+          </div>
+          <div class="col-6">
+            <h5>Instituto de Salud Pública</h5>
+            <p class="font-weight-bold">
+              Dra. Clara Luz Sampieri Ramírez
+            </p>
+            <p>
+              Correo: <a class="text-light enlace" href="mailto:csampieri@uv.mx "
+                >csampieri@uv.mx @<br class="responsivo">uv.mx</a
+              >
+            </p>
+            <p>
+              Tel. 2288421700<br />
+              Ext. 13327
+            </p>
+          </div>
+        </div>
+        <!--Disclaimer-->
+        <div class="row">
+          <div class="col">
+            <div class="accordion" id="accordionExample">
+              <div class="card bg-info">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-link btn-block text-left text-white"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      <i>Disclaimer</i>
+                    </button>
+                  </h2>
+                </div>
+
+                <div
+                  id="collapseOne"
+                  class="collapse"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                      <p class="text-white" style="font-size: small; margin-left:15.65pt;text-indent:-15.65pt; margin:0.3em;"><sup style="font-size:60%;">1</sup> U.S. Breastfeeding Committee-California Breastfeeding Coalition (2010). The California Breastfeeding Story: Becoming Baby Friendly. IMG_1037. [Imagen]. Google Photos.  https://photos.google.com/share/AF1QipNSIlXRuuIBaE4SX_vd4l-n6SxBcDdwDtvgB8im3pHl9Xg-_6-DPXF4RHFi3E0TUA/photo/AF1QipO3uxoqWwlnt6bo8ftsX3CBBs4hvVm6nU1zTi6V?key=d05JZ09MczN5VXJYa1hFNUZubjVTdHlyd3YzN01n </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/Disclaimer-->
+      </div>
+    </section>
+    <!--Datos de Contacto-->
+    <!--Descarga-->
+    <section class="bg-light" id="descarga">
+      <div class="container contenedor-seccion text-center">
+        <a
+          class="btn btn-lg btn-outline-primary"
+          target="_blank"
+          href="pdfs/programa_.pdf"
+        >
+          <span class="mr-3">Programa de la EE</span>
+          <i class="fas fa-file-download fa-2x"></i>
+        </a>
+      </div>
+    </section>
+    <!--/Descarga-->
+    <!--Logo Universidad Veracruzana-->
+    <section id="pie-pagina" class="p-1">
+      <div class="container">
+        <div class="row">
+          <div class="w-100">
+            <div class="row d-flex justify-content-center">
+              <div class="col-3 col-md-2">
+                <img src="images/logo-uv-texto.png" class="img-fluid" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Logo Universidad Veracruzana-->
+    <div class="fixed-bottom-right" id="button-up">
+      <a class="btn btn-success indice btn-sm p-3" href="#presentacion">
+        <i class="fas fa-arrow-alt-circle-up fa-2x"></i>
+      </a>
+    </div>
+    <!--Ventanas Modales-->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modal-instructor-uno"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal-instructor-uno"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h4>Estudios:</h4>
+            <ol type="1">
+              <li></li>
+            </ol>
+            <h4>Trabajo actual:</h4>
+            <ol type="1">
+              <li>
+                
+              </li>
+            </ol>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-outline-secondary waves-effect"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/Ventanas Modales-->
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
+      integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/mdb.min.js"></script>
+    <script src="js/easyScrollDots.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/inicializacion.js"></script>
+  </body>
+</html>
