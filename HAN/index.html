@@ -30,9 +30,9 @@
                 />
               </div>
               <div
-                class="col text-secondary d-flex flex-column justify-content-center"
-              >
-                <span class="h2 font-weight-bold">Curso-Taller: Iniciativa hospital amigo del niño</span>
+                class="col text-secondary d-flex flex-column justify-content-center">
+                <span class="lg-view h2 font-weight-bold responsivo">Curso-Taller: Iniciativa hospital amigo del niño</span>
+				<span class="sm-view h2 font-weight-bold">Hospital amigo del niño</span>
               </div>
             </div>
           </div>
@@ -104,19 +104,59 @@
                   <i class="fas fa-book text-primary"></i> :
                 </a>
               </li>
+			  <li class="list-group-item p-1">
+                <a href="sesion0.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> 0. Sesion introducción
+                </a>
+              </li>
               <li class="list-group-item p-1">
-                <a href="1.html" class="ml-3">
-                  <i class="fas fa-bookmark text-secondary"></i> I. 
+                <a href="sesion1.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> I. Sucesos históricos de la promoción, protección y apoyo a la lactancia materna.
                 </a>
               </li>
 			  <li class="list-group-item p-1">
-                <a href="2.html" class="ml-3">
-                  <i class="fas fa-bookmark text-secondary"></i> II. 
+                <a href="sesion2.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> II. Importancia de la lactancia materna y riesgos de la alimentación artificial.
                 </a>
               </li>
 			  <li class="list-group-item p-1">
-                <a href="3.html" class="ml-3">
-                  <i class="fas fa-bookmark text-secondary"></i> III. 
+                <a href="sesion2.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> III. Recomendaciones internacionales sobre alimentación infantil y definiciones de lactancia materna y amamantamiento.
+                </a>
+              </li>
+			  <li class="list-group-item p-1">
+                <a href="sesion3.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> IV. Encuestas sobre lactancia materna.
+                </a>
+              </li>
+			  <li class="list-group-item p-1">
+                <a href="sesion3.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> V. Fisiología de la lactancia materna.
+                </a>
+              </li>
+			  <li class="list-group-item p-1">
+                <a href="sesion3.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> VI. Apoyo en la primera hora de vida y evaluación del amamantamiento.
+                </a>
+              </li>
+			  <li class="list-group-item p-1">
+                <a href="sesion3.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> VII. Niveles de atención en lactancia materna y apoyo práctico en los pasos 4 al 10 de la guía IHAN 2018.
+                </a>
+              </li>
+			  <li class="list-group-item p-1">
+                <a href="sesion3.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> VIII. Lactancia en el contexto de la pandemia de COVID-19.
+                </a>
+              </li>
+			  <li class="list-group-item p-1">
+                <a href="sesion3.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> IX. Ética en la protección, promoción y apoyo de la lactancia materna.
+                </a>
+              </li>
+			  <li class="list-group-item p-1">
+                <a href="sesion3.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> X. Conclusiones del curso.
                 </a>
               </li>
             </ul>
@@ -137,14 +177,118 @@
       >
         <i class="fas fa-home fa-2x"></i>
       </a>
-	  <a
+	  <button
         class="btn btn-lg btn-light btn-menu d-block"
-        href="sesiones.html"
         data-toggle="tooltip"
         data-html="true"
         title="<em>Sesiones</em>"
+		onclick="mostrarSesiones()"
       >
         <i class="fa fa-th"></i>
+      </button>
+
+    </div>
+    <!--/Menú Izquierdo-->
+	<!--Menú Izquierdo-->
+    <div id="sticky-menu2" style="display:none">
+	  <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="sesion0.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Sesion introductoria</em>"
+      >
+        <span class="font-weight-bold lead">0</span>
+      </a>
+	   <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="sesion1.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Sucesos históricos de la promoción, protección y apoyo a la lactancia materna.</em>"
+      >
+        <span class="font-weight-bold lead">I</span>
+      </a>
+	   <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="sesion2.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Importancia de la lactancia materna y riesgos de la alimentación artificial.</em>"
+      >
+        <span class="font-weight-bold lead">II</span>
+      </a>
+	   <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="sesion3.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Recomendaciones internacionales sobre alimentación infantil y definiciones de lactancia materna y amamantamiento.</em>"
+      >
+        <span class="font-weight-bold lead">III</span>
+      </a>
+	   <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="sesion4.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Encuestas sobre lactancia materna.</em>"
+      >
+        <span class="font-weight-bold lead">IV</span>
+      </a>
+	   <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="sesion5.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Fisiología de la lactancia materna.</em>"
+      >
+        <span class="font-weight-bold lead">V</span>
+      </a>
+	   <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="sesion6.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Apoyo en la primera hora de vida y evaluación del amamantamiento.</em>"
+      >
+        <span class="font-weight-bold lead">VI</span>
+      </a>
+	   <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="sesion7.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Niveles de atención en lactancia materna y apoyo práctico en los pasos 4 al 10 de la guía IHAN 2018.</em>"
+      >
+        <span class="font-weight-bold lead">VII</span>
+      </a>
+	   <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="sesion8.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Lactancia en el contexto de la pandemia de COVID-19.</em>"
+      >
+        <span class="font-weight-bold lead">VIII</span>
+      </a>
+	   <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="sesion9.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Ética en la protección, promoción y apoyo de la lactancia materna</em>"
+      >
+        <span class="font-weight-bold lead">IX</span>
+      </a>
+	  <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="sesion10.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Conclusiones del curso.</em>"
+      >
+        <span class="font-weight-bold lead">X</span>
       </a>
 
     </div>
@@ -329,43 +473,231 @@
       </div>
     </section>
     <!--Unidad de Competencia-->
-	<!--Unidad de Competencia-->
-    <section class="bg-light" id="unidad-competencia">
-      <div
-        class="scroll-indicator"
-        id="seccion-temario"
-        data-scroll-indicator-title="Temario"
-      ></div>
-      <div class="container contenedor-seccion" style="text-align: center;">
-        <div class="row mb-4">
-          <div class="col">
-            <h3><i class="fa fa-list-ul"></i> Temario</h3>
-          </div>
+		<!--Contenido-->
+    <section class="bg-primary" id="seccion-temario">
+		<div
+			class="scroll-indicator"
+			id="seccion-temario"
+			data-scroll-indicator-title="Temario"
+		></div>
+        <div class="container contenedor-seccion text-white">
+            <div class="row mb-4">
+                <div class="col">
+                    <h3><i class="fa fa-th"></i> Sesiones del curso</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mx-4">
+                    <div class="row row-cols-1 row-cols-md-4">
+						<div class="col mb-4">
+                            <div class="card text-center h-100 bg-white">
+								<div class="view overlay">
+									<div
+									class="bg-secondary d-flex align-items-center justify-content-center"
+									>
+									<h3 class="card-title p-3">Sesión 0</h3>
+									</div>
+									<a href="#">
+									<div class="mask rgba-white-slight"></div>
+									</a>
+								</div>
+								<div class="card-footer text-muted bg-transparent">
+									Sesión de introducción.
+								</div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card text-center h-100 bg-white">
+								<div class="view overlay">
+									<div
+									class="bg-secondary d-flex align-items-center justify-content-center"
+									>
+									<h3 class="card-title p-3">Sesión I</h3>
+									</div>
+									<a href="#">
+									<div class="mask rgba-white-slight"></div>
+									</a>
+								</div>
+								<div class="card-footer text-muted bg-transparent">
+									Sucesos históricos de la promoción, protección y apoyo a la lactancia materna.
+								</div>
+                            </div>
+                        </div>
+						<div class="col mb-4">
+                            <div class="card text-center h-100 bg-white">
+                            <div class="view overlay">
+                                <div
+                                class="bg-secondary d-flex align-items-center justify-content-center"
+                                >
+                                <h3 class="card-title p-3">Sesión II</h3>
+                                </div>
+                                <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted bg-transparent">
+                                Importancia de la lactancia materna y riesgos de la alimentación artificial.
+                            </div>
+                            </div>
+                        </div>
+						<div class="col mb-4">
+                            <!-- Modulo 1 -->
+                            <div class="card text-center h-100 bg-white">
+                            <div class="view overlay">
+                                <div
+                                class="bg-secondary d-flex align-items-center justify-content-center"
+                                >
+                                <h3 class="card-title p-3">Sesión III</h3>
+                                </div>
+                                <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted bg-transparent">
+                                Recomendaciones internacionales sobre alimentación infantil y definiciones de lactancia materna y amamantamiento.
+                            </div>
+                            </div>
+                        </div>
+						
+                    </div>
+                </div>
+            </div>
+			<div class="row">
+                <div class="col mx-4">
+                    <div class="row row-cols-1 row-cols-md-4">
+						<div class="col mb-4">
+                            <div class="card text-center h-100 bg-white">
+								<div class="view overlay">
+									<div
+									class="bg-secondary d-flex align-items-center justify-content-center"
+									>
+									<h3 class="card-title p-3">Sesión IV</h3>
+									</div>
+									<a href="#">
+									<div class="mask rgba-white-slight"></div>
+									</a>
+								</div>
+								<div class="card-footer text-muted bg-transparent">
+									Encuestas sobre lactancia materna.
+								</div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card text-center h-100 bg-white">
+								<div class="view overlay">
+									<div
+									class="bg-secondary d-flex align-items-center justify-content-center"
+									>
+									<h3 class="card-title p-3">Sesión V</h3>
+									</div>
+									<a href="#">
+									<div class="mask rgba-white-slight"></div>
+									</a>
+								</div>
+								<div class="card-footer text-muted bg-transparent">
+									Fisiología de la lactancia materna.
+								</div>
+                            </div>
+                        </div>
+						<div class="col mb-4">
+                            <div class="card text-center h-100 bg-white">
+                            <div class="view overlay">
+                                <div
+                                class="bg-secondary d-flex align-items-center justify-content-center"
+                                >
+                                <h3 class="card-title p-3">Sesión VI</h3>
+                                </div>
+                                <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted bg-transparent">
+                                Apoyo en la primera hora de vida y evaluación del amamantamiento.
+                            </div>
+                            </div>
+                        </div>
+						<div class="col mb-4">
+                            <!-- Modulo 1 -->
+                            <div class="card text-center h-100 bg-white">
+                            <div class="view overlay">
+                                <div
+                                class="bg-secondary d-flex align-items-center justify-content-center"
+                                >
+                                <h3 class="card-title p-3">Sesión VII</h3>
+                                </div>
+                                <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted bg-transparent">
+                                Niveles de atención en lactancia materna y apoyo práctico en los pasos 4 al 10 de la guía IHAN 2018.
+                            </div>
+                            </div>
+                        </div>
+						
+                    </div>
+                </div>
+            </div>
+			<div class="row">
+                <div class="col mx-4">
+                    <div class="row row-cols-1 row-cols-md-4">
+						<div class="col mb-4">
+                            <div class="card text-center h-100 bg-white">
+								<div class="view overlay">
+									<div
+									class="bg-secondary d-flex align-items-center justify-content-center"
+									>
+									<h3 class="card-title p-3">Sesión VIII</h3>
+									</div>
+									<a href="#">
+									<div class="mask rgba-white-slight"></div>
+									</a>
+								</div>
+								<div class="card-footer text-muted bg-transparent">
+									Lactancia en el contexto de la pandemia de COVID-19.
+								</div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card text-center h-100 bg-white">
+								<div class="view overlay">
+									<div
+									class="bg-secondary d-flex align-items-center justify-content-center"
+									>
+									<h3 class="card-title p-3">Sesión IX</h3>
+									</div>
+									<a href="#">
+									<div class="mask rgba-white-slight"></div>
+									</a>
+								</div>
+								<div class="card-footer text-muted bg-transparent">
+									Ética en la protección, promoción y apoyo de la lactancia materna.
+								</div>
+                            </div>
+                        </div>
+						<div class="col mb-4">
+                            <div class="card text-center h-100 bg-white">
+                            <div class="view overlay">
+                                <div
+                                class="bg-secondary d-flex align-items-center justify-content-center"
+                                >
+                                <h3 class="card-title p-3">Sesión X</h3>
+                                </div>
+                                <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted bg-transparent">
+                                Conclusiones del curso.
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-		
-        <div class="row flex-column-reverse flex-md-row">
-		<div class="col-1 col-sm-0 col-lg-1 d-flex align-items-center"></div>
-          <div class="col-02 col-sm-12 col-lg-10 d-flex align-items-center">
-            <p>
-			<ul style="list-style-type:none">
-				<li><span class="font-weight-bold">1.</span> Sucesos históricos de la promoción, protección y apoyo a la lactancia materna.</li>
-				<li><span class="font-weight-bold">2.</span> Importancia de la lactancia materna y riesgos de la alimentación artificial.</li>
-				<li><span class="font-weight-bold">3.</span> Recomendaciones internacionales sobre alimentación infantil y definiciones de lactancia materna y amamantamiento.</li>
-				<li><span class="font-weight-bold">4.</span> Encuestas sobre lactancia materna.</li>
-				<li><span class="font-weight-bold">5.</span> Fisiología de la lactancia materna.</li>
-				<li><span class="font-weight-bold">6.</span> Apoyo en la primera hora de vida y evaluación del amamantamiento.</li>
-				<li><span class="font-weight-bold">7.</span> Niveles de atención en lactancia materna y apoyo práctico en los pasos 4 al 10 de la guía IHAN 2018.</li>
-				<li><span class="font-weight-bold">8.</span> Lactancia en el contexto de la pandemia de COVID-19.</li>
-				<li><span class="font-weight-bold">9.</span> Ética en la protección, promoción y apoyo de la lactancia materna.</li>
-				<li><span class="font-weight-bold">10.</span> Conclusiones del curso.</li>
-			</ul>
-            </p>
-          </div>
-		<div class="col-1 col-sm-0 col-lg-1 d-flex align-items-center"></div>
-        </div>
-      </div>
     </section>
-    <!--Unidad de Competencia-->
+    <!--/Contenido-->
     <!--Autores-->
     <section class="bg-secondary text-white" id="autores">
       <div
@@ -530,39 +862,6 @@
       </div>
     </section>
     <!--/Evaluacion del Desempeño-->
-	<!--Unidad de Competencia-->
-    <section class="bg-light" id="unidad-competencia">
-      <div
-        class="scroll-indicator"
-        id="seccion-temario"
-        data-scroll-indicator-title="Temario"
-      ></div>
-      <div class="container contenedor-seccion" style="text-align: center;">
-        <div class="row mb-4">
-          <div class="col">
-          </div>
-        </div>
-			<a class="button" href="sesiones.html">
-              <div class="card bg-info">
-                <div class="card-header" id="headingOne">
-                  <h2 class="mb-0">
-                      <h1 style="color: white;"><i class="fa fa-play-circle" aria-hidden="true"> Entrar Al Taller</i></h1>
-
-                  </h2>
-                </div>
-
-              </div>
-            </a>
-        <div class="row flex-column-reverse flex-md-row">
-		<div class="col-1 col-sm-0 col-lg-1 d-flex align-items-center"></div>
-          <div class="col-02 col-sm-12 col-lg-10 d-flex align-items-center">
-            
-          </div>
-		<div class="col-1 col-sm-0 col-lg-1 d-flex align-items-center"></div>
-        </div>
-      </div>
-    </section>
-    <!--Unidad de Competencia-->
     <!--Datos de Contacto-->
     <section class="bg-primary" id="datos-contacto">
       <div
@@ -751,5 +1050,15 @@
     <script src="js/easyScrollDots.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/inicializacion.js"></script>
+	<script>
+	function mostrarSesiones() {
+	  var x = document.getElementById("sticky-menu2");
+	  if (x.style.display === "none") {
+		x.style.display = "block";
+	  } else {
+		x.style.display = "none";
+	  }
+	}
+	</script>
   </body>
 </html>
