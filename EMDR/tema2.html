@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/easyScrollDots.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <title></title>
+  </head>
+  <body>
+    <!--Encabezado-->
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg plantilla" id="encabezado">
+        <div class="container">
+          <div class="navbar-brand pb-0">
+            <div class="row no-gutters mb-1">
+              <div class="col">
+                <img
+                  src="images/logo-afel.png"
+                  class="logo d-inline mr-"
+                  alt="mdb logo"
+                />
+              </div>
+			  
+			  <div
+                class="col text-secondary d-flex flex-column justify-content-center"
+              >
+			  <span class="lg-view h2 font-weight-bold responsivo"></span>
+				<span class="sm-view h2 font-weight-bold"></span>
+
+                <p class=" lg-view p-0 m-0 font-weight-bold">
+                  
+                </p>
+				<p class=" sm-view p-0 m-0 font-weight-bold modulolargo">
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="dropdown"
+            data-target="#menu-indice"
+            aria-controls="menu-indice"
+            aria-expanded="false"
+            aria-label="Dropdown"
+          >
+            <i class="fas fa-align-justify text-dark"></i>
+          </button>
+          <!--Menú en dispositivos móviles-->
+          <div class="dropdown-menu dropdown-menu-right" id="menu-indice">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-secondary text-center p-1">
+                <a
+                  class="text-white"
+                  href="https://www.uv.mx/"
+                  target="_blank"
+                  alt="Ir a Universidad Veracruzana"
+                >
+                  Universidad Veracruzana
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="#" class="indice">
+                  <i class="fas fa-home text-primary"></i> Inicio:
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="#seccion-proposito" class="ml-3 indice">
+                  <i class="icon-icono_proposito text-secondary"></i> Propósito:
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="#seccion-introduccion" class="ml-3 indice">
+                  <i class="icon-icono_introduccion text-secondary"></i>
+                  Introducci&oacute;n
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="#seccion-contenido" class="ml-3 indice">
+                  <i class="fas fa-copy text-secondary"></i> Contenido
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="#seccion-fuentes" class="ml-3 indice">
+                  <i class="icon-icono_fuentes text-secondary"></i> Fuentes de
+                  Informaci&oacute;n
+                </a>
+              </li>
+			 <li class="list-group-item p-1">
+                <a href="index.html">
+                  <i class="fas fa-book text-primary"></i> Módulos:
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="modulo1.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> I. 
+                </a>
+              </li>
+			  <li class="list-group-item p-1">
+                <a href="modulo2.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> II. 
+                </a>
+              </li>
+			  <li class="list-group-item p-1">
+                <a href="modulo3.html" class="ml-3">
+                  <i class="fas fa-bookmark text-secondary"></i> III. 
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="#">
+                  <i class="fas fa-book text-primary"></i> Temas:
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="#seccion-tema-1" class="ml-3 indice">
+                  <i class="fas fa-bookmark text-secondary"></i> 1.1. 
+                </a>
+              </li>
+              <li class="list-group-item p-1">
+                <a href="#seccion-tema-2" class="ml-3 indice">
+                  <i class="fas fa-bookmark text-secondary"></i> 1.2 
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--Menú en dispositivos móviles-->
+        </div>
+      </nav>
+    </header>
+    <!--/Encabezado-->
+    <!--Menú Izquierdo-->
+	<div id="sticky-menu" class="d-none d-lg-block d-lg-flex flex-column">
+		<a
+        class="btn btn-lg btn-light btn-menu"
+        href="index.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Inicio</em>"
+      >
+        <i class="fas fa-home fa-2x"></i>
+      </a>
+
+      <a
+        class="btn btn-lg btn-primary btn-menu d-block"
+        href="#!"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Introducción.</em>"
+      >
+        <span class="font-weight-bold lead">I</span>
+      </a>
+	  <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="tema2.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Datos.</em>"
+      >
+        <span class="font-weight-bold lead">II</span>
+      </a>
+	  <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="tema3.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Gráficos.</em>"
+      >
+        <span class="font-weight-bold lead">III</span>
+      </a>
+	  <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="tema4.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Programación.</em>"
+      >
+        <span class="font-weight-bold lead">IV</span>
+      </a>
+	  <a
+        class="btn btn-lg btn-light btn-menu d-block"
+        href="tema5.html"
+        data-toggle="tooltip"
+        data-html="true"
+        title="<em>Estadística.</em>"
+      >
+        <span class="font-weight-bold lead">V</span>
+      </a>
+    </div>
+    <!--/Menú Izquierdo-->
+
+	<!--Tema 1-->
+    <section class="bg-primary text-white">
+      <div
+        class="scroll-indicator"
+        id="seccion-tema-2"
+        data-scroll-indicator-title="1.1."
+      ></div>
+      <div class="container contenedor-seccion">
+        <div class="row mb-4">
+          <div class="col">
+            <h3>1.1.</em></h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p>Este tema le familiarizar&aacute; con las vers&aacute;tiles y novedosas herramientas que R tiene para la era de la informaci&oacute;n y su manejo. Aprender&aacute; a convertir entre uno y otro formato longitudinal a ancho y viceversa. Empleando comandos (instrucciones) de consulta podr&aacute; acceder a la informaci&oacute;n que busca, es decir, ser&aacute;s capaz de "encontrar la aguja en el pajar". Podr&aacute; seleccionar, filtrar, agrupar o realizar operaciones con variables de su inter&eacute;s, partiendo de los criterios que gu&iacute;en su consulta. &Eacute;sta es una parte central del manejo de datos y una habilidad que aumentar&aacute; tus capacidades anal&iacute;ticas. Esto te conferir&aacute; alta productividad con comandos cortos y concisos.</p>
+<ul>
+<li><strong>En d&oacute;nde encontrar datos, c&oacute;mo cargarlos y guardarlos</strong></li>
+</ul>
+<p>Estamos en una era en la que es m&aacute;s f&aacute;cil obtener datos que generarlos. En esta secci&oacute;n revisaremos algunos sitios de internet que son repositorios de conjuntos de datos. Tambi&eacute;n veremos c&oacute;mo generar datos ficticios (<em>mock data</em>) de manera aleatoria, con el prop&oacute;sito de evaluar la pertinencia de nuestros dise&ntilde;os experimentales. Podemos modificar las propiedades estad&iacute;sticas de nuestros conjuntos de datos a partir del empleo de distintas funciones. Finalmente, veremos c&oacute;mo las funciones b&aacute;sicas <em>read.table()</em> y <em>write.table()</em> nos permiten cargarlos y guardarlos en nuestro ordenador, as&iacute; como los paquetes que complementan esta funcionalidad a&ntilde;adiendo la capacidad de subir datos de otros formatos populares como Excel.</p>
+<p>PRESENTACI&Oacute;N <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EeDDE6UhiUlJgxepl10DzswBP4GWNpnGGllQGGihw2iI0w?e=u3f1p6">Clase 1.2 Datos y donde encontrarlos.pdf (pp. 1-17, 21-33)</a></p>
+<p>VIDEOS <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/EVNTeXHErdNDpqByec1iA-MBfTkIWlCQihiiCAndBJ7UUg?e=rx350k">Clase_2.1_BasesDatos1_ed</a> y <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/ER7M5tOeIjRHvmqz5AGVeMQBVzjxyeXToXfGacIqyaSm-g?e=IAcB7p">Clase_2.2_BasesDatos2_ed</a></p>
+<ul>
+<li><strong>Acomodo de datos</strong></li>
+</ul>
+<p>En muchas ocasiones los datos que tenemos no est&aacute;n dispuestos en un formato que facilita su visualizaci&oacute;n y an&aacute;lisis, por lo que requieren de su correcto <em>acomodo</em>.</p>
+<ul>
+<li><strong>Operaciones l&oacute;gicas</strong></li>
+</ul>
+<p>El acomodo de datos requiere de operaciones l&oacute;gicas que permitan incluir, excluir o combinarlos. En esta secci&oacute;n revisaremos la forma b&aacute;sica de realizar estas operaciones l&oacute;gicas mediante la indizaci&oacute;n.</p>
+<p>PRESENTACI&Oacute;N <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EYWo7BKiNr9FlQ5odfS94tMBjrn8JIQ3r9GM5GrwvoOLlg?e=o9DCPp">Clase 1.3 Acomodo de datos.pdf (pp. 1-10)</a></p>
+<p>VIDEOS <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/EQeonMapLxtDpEA7THu2iVUBspFSXFNlP3nL5s-w-HLRYQ?e=YhgZqG">Clase_2.3_Head-Tail_ed</a></p>
+<ul>
+<li><strong>Funciones b&aacute;sicas <em>subset()</em> y <em>aggregate()</em></strong></li>
+</ul>
+<p>En la biblioteca b&aacute;sica de R, las funciones <em>subset()</em> y <em>aggregate()</em> permiten realizar subconjuntos o agregar datos de manera sencilla, sin utilizar &iacute;ndices u operaciones l&oacute;gicas complejas.</p>
+<p>PRESENTACI&Oacute;N <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EYWo7BKiNr9FlQ5odfS94tMBjrn8JIQ3r9GM5GrwvoOLlg?e=o9DCPp">Clase 1.3 Acomodo de datos.pdf (pp. 14-18)</a></p>
+<p>VIDEOS <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/EdEeQ-KtnHZBgDnvVxRAGUQBWgdyTshiEg-UiR3jvFFEEw?e=PLLNof">Clase_2.4_Subset-Aggregate_ed</a></p>
+<ul>
+<li><strong>Biblioteca <em>tidyr</em>: para acomodar datos &aacute;gilmente</strong></li>
+</ul>
+<p>Esta es la biblioteca central del conjunto conocido como <em>tidyverse</em>, que propulsa a R a la nueva era en el manejo de datos. <em>Tidyr</em> contiene m&uacute;ltiples funciones para realizar acomodo de datos para que &eacute;stos est&eacute;n disponibles en importantes funciones de visualizaci&oacute;n de an&aacute;lisis, sobre todo enfatizando el principio de una columna por variable y una observaci&oacute;n por fila. La construcci&oacute;n de funciones y par&aacute;metros en la librer&iacute;a <em>tidyr</em> sigue una l&oacute;gica intuitiva, que permite la escritura y lectura de c&oacute;digo de forma &aacute;gil y similar al lenguaje humano.</p>
+<p>PRESENTACI&Oacute;N <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EYWo7BKiNr9FlQ5odfS94tMBjrn8JIQ3r9GM5GrwvoOLlg?e=o9DCPp">Clase 1.3 Acomodo de datos.pdf (pp. 22-44)</a></p>
+<p>VIDEOS <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/Eb7jC1AekgFHm_y4u0AmN4gBIgGPa4HneUmcFQ8Y1reXjw?e=dxTIdb">Clase_2.5_tidyr_small</a></p>
+<ul>
+<li><strong>Biblioteca <em>dplyr</em>: para manipular la estructura interna de bases de datos</strong></li>
+</ul>
+<p>Continuando con la tradici&oacute;n de funciones con nomenclatura y uso intuitivo, <em>dplyr</em> ofrece una aut&eacute;ntica caja de herramientas con las que podemos manipular la estructura interna de las bases de datos eficientemente; por ejemplo, podemos obtener res&uacute;menes estad&iacute;sticos de &eacute;stas, aunque sean muy extensas; agregar columnas que resulten de realizar operaciones con variables (columnas) existentes y un sinf&iacute;n de operaciones que s&oacute;lo tienen como l&iacute;mite la imaginaci&oacute;n. Cabe se&ntilde;alar que estas funciones se desarrollaron para procesar bases de datos muy grandes, por lo que sus algoritmos permiten procesar enormes cantidades de informaci&oacute;n r&aacute;pidamente.</p>
+<p>PRESENTACI&Oacute;N <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EYWo7BKiNr9FlQ5odfS94tMBjrn8JIQ3r9GM5GrwvoOLlg?e=o9DCPp">Clase 1.3 Acomodo de datos.pdf (pp. 49-73)</a></p>
+<p>VIDEOS <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/EQGxS_Zawb1Fn-3XotxgJjoB4cjb6w3DsQ8B7K4oBWQrYg?e=YMWB1g">Clase_2.6_dplyr_small</a></p>
+<ul>
+<li><strong>Biblioteca <em>magrittr</em>: para agilizar la programaci&oacute;n con el operador<em> &ldquo;tubo</em>&rdquo; %&gt;%</strong></li>
+</ul>
+<p>Esta biblioteca provee de una innovadora forma de programaci&oacute;n mediante &ldquo;<em>tubos</em>&rdquo;. Programar as&iacute; implica un cambio de paradigma en la forma del uso de las funciones, que va m&aacute;s acorde con la forma en que cognitivamente creamos un c&oacute;digo. La capacidad de mandar por un &ldquo;<em>tubo</em>&rdquo; el resultado de una funci&oacute;n y a su vez enviarlo por otro &ldquo;<em>tubo,</em>&rdquo; una vez que est&aacute; procesada la informaci&oacute;n, le otorga agilidad y legibilidad a nuestro c&oacute;digo.</p>
+<p>PRESENTACI&Oacute;N <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EYWo7BKiNr9FlQ5odfS94tMBjrn8JIQ3r9GM5GrwvoOLlg?e=o9DCPp">Clase 1.3 Acomodo de datos.pdf (pp. 81-87)</a></p>
+<p>VIDEOS <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/EXgDngfKANhNqev6GtkIWdkBaqIiTkzlFaXAoQc3tXdMig?e=JWVIBF">Clase_2.7_magrittr_small</a></p>
+<ul>
+<li><strong>Biblioteca</strong><strong><em>forcats</em></strong><strong>: para llevar el uso de factores a otro nivel</strong></li>
+</ul>
+<p>Esta biblioteca nos ayudar&aacute; a manipular m&aacute;s eficientemente la estructura de datos conocida como factor. Los factores son extremadamente &uacute;tiles y necesarios para realizar muchas operaciones en R. Sin embargo, la presencia de niveles en su estructura interna hace que el manejo y operaci&oacute;n de los factores sean algo r&iacute;gidos. Con <em>forcats</em> podremos hacer manipulaciones como uni&oacute;n o remoci&oacute;n de niveles de manera &aacute;gil, en conjunto con otras funciones de las bibliotecas de <em>tidyverse</em> y la programaci&oacute;n &ldquo;<em>tubos</em>.&rdquo;</p>
+<p>PRESENTACI&Oacute;N <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EYWo7BKiNr9FlQ5odfS94tMBjrn8JIQ3r9GM5GrwvoOLlg?e=o9DCPp">Clase 1.3 Acomodo de datos.pdf (pp. 90-94)</a></p>
+			
+			
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col">
+            <div class="alert alert-warning text-dark" role="alert">
+              <p>Para evaluar sus aprendizajes acerca del <strong><em>Tema: Datos</em></strong><em>, </em>dir&iacute;jase a la&nbsp; secci&oacute;n de <strong>Actividades</strong> e ingrese a la <strong>Actividad 3 </strong>y al<strong> Foro del Tema II</strong>, atendiendo las indicaciones para su realizaci&oacute;n.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row bg-light text-dark p-2">
+          <div class="col">
+            <h4>
+              <span class="font-weight-bold">Actividad .</span> 
+            </h4>
+            <p class="font-weight-bold">Descripci&oacute;n:</p>
+            <p class="font-weight-bold">Criterios de desempe&ntilde;o:</p>
+            <p class="font-weight-bold">Lineamientos de entrega:</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/Tema 1-->
+	        <!--Fuentes de Información-->
+    <section class="bg-secondary text-white">
+      <div
+        class="scroll-indicator"
+        id="seccion-fuentes"
+        data-scroll-indicator-title="Fuentes de Información"
+      ></div>
+      <div class="container contenedor-seccion">
+        <div class="row mb-4">
+          <div class="col">
+            <h3><i class="icon-icono_fuentes"></i> Fuentes de Información</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header bg-primary" id="headingOne">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-link btn-block text-left text-white"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Básicas
+                    </button>
+                  </h2>
+                </div>
+
+                <div
+                  id="collapseOne"
+                  class="collapse"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body text-dark">
+					<p style='margin-left:15.65pt;text-indent:-15.65pt;'>De Jonge, E. &amp; Van der Loo, M. (2013). <em>An introduction to data cleaning with R</em>. Statistics Netherlands. <a href="https://cran.r-project.org/doc/contrib/de_Jonge+van_der_Loo-Introduction_to_data_cleaning_with_R.pdf">https://cran.r-project.org/doc/contrib/de_Jonge+van_der_Loo-Introduction_to_data_cleaning_with_R.pdf</a></p>
+					<p style='margin-left:15.65pt;text-indent:-15.65pt;'>D&iacute;az-Uriarte, R. (2003). <em>Introducci&oacute;n al uso y programaci&oacute;n del sistema estad&iacute;stico R.</em> Unidad de Bioinform&aacute;tica. Centro Nacional de Investigaciones Oncol&oacute;gicas (CNIO). <a href="http://cran.r-project.org/doc/contrib/curso-R.Diaz-Uriarte.pdf">http://cran.r-project.org/doc/contrib/curso-R.Diaz-Uriarte.pdf</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header bg-primary text-white" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-link btn-block text-left collapsed text-white"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Complementarias
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="collapseTwo"
+                  class="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body text-dark">
+						
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/Fuentes de Información-->
+		<!--Tema 1-->
+    <section class="bg-primary text-white">
+      <div class="container contenedor-seccion">
+
+        <div class="row bg-light text-dark p-2">
+          <div class="col">
+            <h4>
+              <span class="font-weight-bold">Actividad .</span> 
+            </h4>
+            <p><strong>Descripci&oacute;n:</strong></p>
+<p>Esta actividad le capacitar&aacute; para leer archivos de datos desde R, as&iacute; como para modificarlos y re-escribirlos. Explorar&aacute; conjuntos de datos pre-cargados en el espacio de trabajo, utilizando funciones que le permiten conocer sus dimensiones, estructura, nombres de las variables que contienen, as&iacute; como visualizar sus encabezados o colas. Esta es una forma &aacute;gil de explorar el formato en el que est&aacute; codificado un conjunto de datos, sin necesidad de visualizar todo el conjunto, lo que resulta pr&aacute;ctico cuando se trabaja con bases de datos de grandes dimensiones.</p>
+<p>&nbsp;</p>
+<p>Recuerde agregar, como comentarios en su <em>script</em>, sus dudas o los mensajes de advertencia y/o error que R le haya reportado, as&iacute; como los comandos que los originaron.</p>
+<p>&nbsp;</p>
+<p><strong>Indicaciones</strong></p>
+<ol>
+<li>Leer, modificar, escribir y explorar conjuntos de datos con funciones incluidas dentro de las bibliotecas b&aacute;sicas y las bibliotecas adicionales disponibles para R.</li>
+</ol>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Ejercicios (en las p&aacute;ginas aqu&iacute; se&ntilde;aladas dentro de las presentaciones)</strong></p>
+<p>2.1.1 Cargar y guardar datos. <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EeDDE6UhiUlJgxepl10DzswBP4GWNpnGGllQGGihw2iI0w?e=u3f1p6">Clase 1.2 Datos y donde encontrarlos.pdf (pp. 18-20, 34-35)</a></p>
+<p>2.2.1 Acomodar datos. <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EYWo7BKiNr9FlQ5odfS94tMBjrn8JIQ3r9GM5GrwvoOLlg?e=o9DCPp">Clase 1.3 Acomodo de datos.pdf (p. 11)</a></p>
+<p>2.3.1 Las funciones <em>subset()</em> y <em>aggregate().</em> <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EeDDE6UhiUlJgxepl10DzswBP4GWNpnGGllQGGihw2iI0w?e=u3f1p6">Clase 1.2 Datos y donde encontrarlos.pdf (p. 19)</a></p>
+<p>2.4.1 La biblioteca <em>tidyr.</em> <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EeDDE6UhiUlJgxepl10DzswBP4GWNpnGGllQGGihw2iI0w?e=u3f1p6">Clase 1.2 Datos y donde encontrarlos.pdf (p. 45)</a></p>
+<p>2.5.1 La biblioteca <em>d</em><em>plyr.</em> <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EeDDE6UhiUlJgxepl10DzswBP4GWNpnGGllQGGihw2iI0w?e=u3f1p6">Clase 1.2 Datos y donde encontrarlos.pdf (pp. 74-75)</a></p>
+<p>2.6.1 La biblioteca <em>magrittr.</em> <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EeDDE6UhiUlJgxepl10DzswBP4GWNpnGGllQGGihw2iI0w?e=u3f1p6">Clase 1.2 Datos y donde encontrarlos.pdf (p. 88)</a></p>
+<p>2.7.1 La biblioteca <em>forcats.</em> <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EeDDE6UhiUlJgxepl10DzswBP4GWNpnGGllQGGihw2iI0w?e=u3f1p6">Clase 1.2 Datos y donde encontrarlos.pdf (p. 95)</a></p>
+<p>&nbsp;</p>
+<p><strong>Criterios de desempe&ntilde;o:</strong></p>
+<ol>
+<li>C&oacute;digo ejecutable en <em>script</em> de *.R, distinguiendo l&iacute;neas de comentarios de comandos.</li>
+<li>Carga de conjuntos de datos incluidos en R o propios, al espacio de trabajo en R.</li>
+<li>Instalaci&oacute;n y carga de bibliotecas de funciones adicionales.</li>
+<li>Reconocimiento de estructuras y manejo de datos.</li>
+</ol>
+<p>&nbsp;</p>
+<p><strong>Lineamientos de entrega:</strong></p>
+<ol>
+<li>Divida su <em>script</em> en secciones, usando <em>hashtag</em> # al inicio de las l&iacute;neas que comente. Para conocer ejemplos de <em>scripts</em> revise la <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/ERTO-QLeJIdFo9MoR3h7XFQB-92QV0r8DYuhnE-vdJ23pg?e=h0U3wr">Clase 3.0 Scripts, funciones y control de flujo.pdf (pp. 1-19)</a>. Por ejemplo, si va a iniciar la secci&oacute;n en que asigna su directorio de trabajo, puede indicarlo con la l&iacute;nea:</li>
+</ol>
+<p># Ajustar directorio de trabajo setwd(&ldquo;/Usuario/CursoEMDR&rdquo;) y en las l&iacute;neas subsecuentes agregue los comandos que correspondan a la soluci&oacute;n del ejercicio en turno.</p>
+<ol start="2">
+<li>Titule el archivo (*.R) de la siguiente forma:</li>
+</ol>
+<p><em>Actividad3_ApellidoPaternoPrimerNombre.R.&nbsp; </em>Ejemplo: <em>Actividad3_CoyotlPedro.R</em></p>
+<p>Env&iacute;e su archivo (*.R), a trav&eacute;s del apartado <strong>Actividades</strong> de la plataforma Eminus, a m&aacute;s tardar en la fecha establecida en el<strong> Calendario</strong> de entregas.</p>
+          </div>
+        </div>
+		<br>
+		<div class="row bg-light text-dark p-2">
+          <div class="col">
+            <h4>
+              <span class="font-weight-bold">Foro .</span> 
+            </h4>
+            <p><strong>Descripci&oacute;n:</strong></p>
+<p>Esta actividad le capacitar&aacute; para leer archivos de datos desde R, as&iacute; como para modificarlos y re-escribirlos. Explorar&aacute; conjuntos de datos pre-cargados en el espacio de trabajo, utilizando funciones que le permiten conocer sus dimensiones, estructura, nombres de las variables que contienen, as&iacute; como visualizar sus encabezados o colas. Esta es una forma &aacute;gil de explorar el formato en el que est&aacute; codificado un conjunto de datos, sin necesidad de visualizar todo el conjunto, lo que resulta pr&aacute;ctico cuando se trabaja con bases de datos de grandes dimensiones.</p>
+<p>&nbsp;</p>
+<p>Recuerde agregar, como comentarios en su <em>script</em>, sus dudas o los mensajes de advertencia y/o error que R le haya reportado, as&iacute; como los comandos que los originaron.</p>
+<p>&nbsp;</p>
+<p><strong>Indicaciones</strong></p>
+<ol>
+<li>Leer, modificar, escribir y explorar conjuntos de datos con funciones incluidas dentro de las bibliotecas b&aacute;sicas y las bibliotecas adicionales disponibles para R.</li>
+</ol>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Ejercicios (en las p&aacute;ginas aqu&iacute; se&ntilde;aladas dentro de las presentaciones)</strong></p>
+<p>2.1.1 Cargar y guardar datos. <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EeDDE6UhiUlJgxepl10DzswBP4GWNpnGGllQGGihw2iI0w?e=u3f1p6">Clase 1.2 Datos y donde encontrarlos.pdf (pp. 18-20, 34-35)</a></p>
+<p>2.2.1 Acomodar datos. <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EYWo7BKiNr9FlQ5odfS94tMBjrn8JIQ3r9GM5GrwvoOLlg?e=o9DCPp">Clase 1.3 Acomodo de datos.pdf (p. 11)</a></p>
+<p>2.3.1 Las funciones <em>subset()</em> y <em>aggregate().</em> <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EeDDE6UhiUlJgxepl10DzswBP4GWNpnGGllQGGihw2iI0w?e=u3f1p6">Clase 1.2 Datos y donde encontrarlos.pdf (p. 19)</a></p>
+<p>2.4.1 La biblioteca <em>tidyr.</em> <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EeDDE6UhiUlJgxepl10DzswBP4GWNpnGGllQGGihw2iI0w?e=u3f1p6">Clase 1.2 Datos y donde encontrarlos.pdf (p. 45)</a></p>
+<p>2.5.1 La biblioteca <em>d</em><em>plyr.</em> <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EeDDE6UhiUlJgxepl10DzswBP4GWNpnGGllQGGihw2iI0w?e=u3f1p6">Clase 1.2 Datos y donde encontrarlos.pdf (pp. 74-75)</a></p>
+<p>2.6.1 La biblioteca <em>magrittr.</em> <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EeDDE6UhiUlJgxepl10DzswBP4GWNpnGGllQGGihw2iI0w?e=u3f1p6">Clase 1.2 Datos y donde encontrarlos.pdf (p. 88)</a></p>
+<p>2.7.1 La biblioteca <em>forcats.</em> <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EeDDE6UhiUlJgxepl10DzswBP4GWNpnGGllQGGihw2iI0w?e=u3f1p6">Clase 1.2 Datos y donde encontrarlos.pdf (p. 95)</a></p>
+<p>&nbsp;</p>
+<p><strong>Criterios de desempe&ntilde;o:</strong></p>
+<ol>
+<li>C&oacute;digo ejecutable en <em>script</em> de *.R, distinguiendo l&iacute;neas de comentarios de comandos.</li>
+<li>Carga de conjuntos de datos incluidos en R o propios, al espacio de trabajo en R.</li>
+<li>Instalaci&oacute;n y carga de bibliotecas de funciones adicionales.</li>
+<li>Reconocimiento de estructuras y manejo de datos.</li>
+</ol>
+<p>&nbsp;</p>
+<p><strong>Lineamientos de entrega:</strong></p>
+<ol>
+<li>Divida su <em>script</em> en secciones, usando <em>hashtag</em> # al inicio de las l&iacute;neas que comente. Para conocer ejemplos de <em>scripts</em> revise la <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/ERTO-QLeJIdFo9MoR3h7XFQB-92QV0r8DYuhnE-vdJ23pg?e=h0U3wr">Clase 3.0 Scripts, funciones y control de flujo.pdf (pp. 1-19)</a>. Por ejemplo, si va a iniciar la secci&oacute;n en que asigna su directorio de trabajo, puede indicarlo con la l&iacute;nea:</li>
+</ol>
+<p># Ajustar directorio de trabajo setwd(&ldquo;/Usuario/CursoEMDR&rdquo;) y en las l&iacute;neas subsecuentes agregue los comandos que correspondan a la soluci&oacute;n del ejercicio en turno.</p>
+<ol start="2">
+<li>Titule el archivo (*.R) de la siguiente forma:</li>
+</ol>
+<p><em>Actividad3_ApellidoPaternoPrimerNombre.R.&nbsp; </em>Ejemplo: <em>Actividad3_CoyotlPedro.R</em></p>
+<p>Env&iacute;e su archivo (*.R), a trav&eacute;s del apartado <strong>Actividades</strong> de la plataforma Eminus, a m&aacute;s tardar en la fecha establecida en el<strong> Calendario</strong> de entregas.</p>
+          </div>
+        </div>
+		<br>
+      </div>
+    </section>
+    <!--/Tema 1-->
+
+   
+    <!--Disclaimer-->
+    <section class="bg-light">
+      <div class="container contenedor-menu-contenido">
+        <!--Disclaimer-->
+        <div class="row">
+          <div class="col">
+            <div class="accordion" id="accordionExample">
+              <div class="card bg-info">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-link btn-block text-left text-white"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      <i>Disclaimer</i>
+                    </button>
+                  </h2>
+                </div>
+
+                <div
+                  id="collapseOne"
+                  class="collapse"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                        <p class="text-white" style="font-size: small; margin-left:15.65pt;text-indent:-15.65pt; margin:0.3em;"
+                          ><sup style="font-size:60%;">1</sup> </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/Disclaimer-->
+      </div>
+    </section>
+    <!--Disclaimer-->
+    <!--Logo Universidad Veracruzana-->
+    <section id="pie-pagina" class="p-1">
+      <div class="container">
+        <div class="row">
+          <div class="w-100">
+            <div class="row d-flex justify-content-center">
+              <div class="col-3 col-md-2">
+                <img src="images/logo-uv-texto.png" class="img-fluid" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Logo Universidad Veracruzana-->
+    <div class="fixed-bottom-right" id="button-up">
+      <a class="btn btn-success indice btn-sm p-3" href="#seccion-proposito">
+        <i class="fas fa-arrow-alt-circle-up fa-2x"></i>
+      </a>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
+      integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/mdb.min.js"></script>
+    <script src="js/easyScrollDots.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/inicializacion.js"></script>
+  </body>
+</html>
