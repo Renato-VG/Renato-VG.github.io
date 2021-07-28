@@ -24,7 +24,7 @@
             <div class="row no-gutters mb-1">
               <div class="col">
                 <img
-                  src="images/logo-afel.png"
+                  src="images/logo_EC.jpg"
                   class="logo d-inline mr-"
                   alt="mdb logo"
                 />
@@ -33,14 +33,14 @@
 			  <div
                 class="col text-secondary d-flex flex-column justify-content-center"
               >
-			  <span class="lg-view h2 font-weight-bold responsivo"></span>
-				<span class="sm-view h2 font-weight-bold"></span>
+			  <span class="lg-view h2 font-weight-bold responsivo">Estadística y manejo de datos con R</span>
+				<span class="sm-view h2 font-weight-bold">Estadística y manejo de datos con R</span>
 
                 <p class=" lg-view p-0 m-0 font-weight-bold">
-                  
+                  Tema 1
                 </p>
 				<p class=" sm-view p-0 m-0 font-weight-bold modulolargo">
-                  
+                  Tema 1
                 </p>
               </div>
             </div>
@@ -160,7 +160,7 @@
         <span class="font-weight-bold lead">I</span>
       </a>
 	  <a
-        class="btn btn-lg btn-light btn-menu d-block"
+        class="btn btn-lg btn-light btn-menu"
         href="tema2.html"
         data-toggle="tooltip"
         data-html="true"
@@ -197,125 +197,63 @@
       </a>
     </div>
     <!--/Menú Izquierdo-->
-    <!--Contenido-->
-    <section class="bg-light">
-      <div
-        class="scroll-indicator"
-        id="seccion-contenido"
-        data-scroll-indicator-title="Contenido"
-      ></div>
-      <div class="container contenedor-seccion">
-        <div class="row mb-4">
-          <div class="col">
-            <h3><i class="fas fa-copy text-secondary"></i> Contenido</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="list-group">
-              <a
-                href="#seccion-tema-1"
-                class="list-group-item list-group item-action bg-primary text-white indice"
-              >
-                1.1. 
-              </a>
-			  <a
-                href="#seccion-tema-2"
-                class="list-group-item list-group item-action bg-primary text-white indice"
-              >
-                1.2	
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--/Contenido-->
-
 	<!--Tema 1-->
     <section class="bg-primary text-white">
       <div
         class="scroll-indicator"
         id="seccion-tema-2"
-        data-scroll-indicator-title="1.1."
+        data-scroll-indicator-title="1. Introducción."
       ></div>
       <div class="container contenedor-seccion">
         <div class="row mb-4">
           <div class="col">
-            <h3>1.1.</em></h3>
+            <h3>1. Introducción</h3>
           </div>
         </div>
         <div class="row">
           <div class="col">
             <p>Este curso est&aacute; dise&ntilde;ado para desarrollarse en Rstudio, por ello es importante que cuente con R (<a href="https://www.r-project.org/">https://www.r-project.org/</a>) y RStudio (<a href="https://www.rstudio.com/">https://www.rstudio.com/</a>) instalados para esta sesi&oacute;n. RStudio es la manera m&aacute;s eficiente de interaccionar con R. Revisaremos los conceptos b&aacute;sicos, relacionados con el funcionamiento de este programa de c&oacute;mputo estad&iacute;stico. Tambi&eacute;n conocer&aacute; las partes que componen la interfaz gr&aacute;fica y el espacio de trabajo de R. Y, sin m&aacute;s pre&aacute;mbulo, iniciaremos la revisi&oacute;n de los modos (estructuras) en que R puede almacenar y manejar datos en su espacio de trabajo, as&iacute; como las propiedades (<em>pros</em> y contras) de cada estructura. Ser&aacute; una sesi&oacute;n intensa y cargada de ejercicios cortos, planeada as&iacute; para fomentar la interacci&oacute;n con R. Cerraremos revisando de qu&eacute; manera podemos acomodar, agrupar o filtrar datos espec&iacute;ficos o de inter&eacute;s, consultando diferentes bases de datos.</p>
-<p>&nbsp;</p>
-<ul>
-<li><span class="font-weight-bold">&iquest;C&oacute;mo funciona R?</span>
-<ul>
-<li>Consola (l&iacute;nea de comandos)</li>
-</ul>
-</li>
-</ul>
+
+<span class="font-weight-bold">1.1 &iquest;C&oacute;mo funciona R?</span>
+<p>1.1.1. Consola (l&iacute;nea de comandos)</p>
 <p>Esta parte de la interfaz gr&aacute;fica es como una gran calculadora que nos permite interactuar con el programa a trav&eacute;s de operaciones y <em>comandos</em> que en el lenguaje de R se conocen como <em>funciones</em>.</p>
 <p>Las variables funcionan como en aritm&eacute;tica b&aacute;sica, en donde se usan caracteres alfab&eacute;ticos para representar valores num&eacute;ricos.</p>
-<ul>
-<li>Espacio de trabajo</li>
-</ul>
+<p>1.1.2. Espacio de trabajo</p>
 <p>En esta parte de la interfaz gr&aacute;fica es en donde est&aacute;n almacenadas y podemos visualizar todas las variables disponibles y sus caracter&iacute;sticas principales.</p>
-<ul>
-<li>Objetos y funciones</li>
-</ul>
+<p>1.1.3. Objetos y funciones</p>
 <p>Es posible asignar a un <em>objeto</em> en el espacio de trabajo el contenido de una variable, mediante el empleo de <em>&lt;-</em> un operador flecha. Cuando realizamos una asignaci&oacute;n, R no imprime el contenido, solamente reasigna este valor. Cuando colocamos el nombre de un objeto en la l&iacute;nea de comando y lo ejecutamos, R imprime su contenido.</p>
 <p>Las <em>funciones</em> son piezas de c&oacute;digo prefabricadas que nos ayudan a llevar a cabo de forma sencilla un proceso complejo. Para "llamarlas" debemos especificar su nombre, as&iacute; como los <em>objetos</em> sobre los que queremos que operen. Podemos modificar la forma en que opera una funci&oacute;n mediante la especificaci&oacute;n de sus par&aacute;metros o argumentos.</p>
 <p>PRESENTACI&Oacute;N (subtemas 1.1.1 a 1.1.3) <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EWsXzu1bvX5NhQQUY3OueUUBhXib47SSNiwbtyrZvatAOQ?e=LOBeyB">Clase 1.0 Introducción y conceptos básicos.pdf</a></p>
 <p>VIDEOS subtemas (1.1.1 a 1.1.3) <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/EcTCj1GmtI5IjtQ9JXsKpTsB05CLOZtRP-ZjRzwrwLUqpQ?e=s4b2Z5">Clase_1.2_ConceptosB&aacute;sicos_small</a> y</p>
 <p><a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/ESIyuAyUii9OqoiWKeQQ-AUBvuAj-siJPv6KV2D50LLWpA?e=IBP27z">Clase_1.1_RStudio_porpartes_small</a></p>
-<ul>
-<li>Ayuda</li>
-</ul>
+<p>1.1.4. Ayuda</p>
 <p>R tiene una extensa biblioteca de ayuda para sus funciones. Aqu&iacute; revisaremos las m&uacute;ltiples formas de acceder a la ayuda.</p>
 <p>PRESENTACIONES <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EeDDE6UhiUlJgxepl10DzswBP4GWNpnGGllQGGihw2iI0w?e=u3f1p6">Clase 1.2 Datos y donde encontrarlos.pdf</a> y</p>
 <p><a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EbC1W1qQRM5Cth6JizAFBl8B55BQZLkhbZ51XXLLL82Igg?e=aEoJoT">Clase 1.4 Cargando y explorando datos.pdf</a></p>
-<p>&nbsp;</p>
-<ul>
-<li><span class="font-weight-bold">Tipos de datos y formatos de bases de datos</span>
-<ul>
-<li>Vectores</li>
-</ul>
-</li>
-</ul>
+
+
+<span class="font-weight-bold">1.2 Tipos de datos y formatos de bases de datos</span>
+
+<p>1.2.1. Vectores</p>
 <p>El vector es la estructura de datos m&aacute;s sencilla de R. Trata de una sola l&iacute;nea horizontal de valores (n&uacute;meros o caracteres). Se construye asignando a un objeto dichos valores con la funci&oacute;n <em>c()</em>. Se pueden referenciar los elementos dentro de un vector usando corchetes [], y dentro de &eacute;stos el n&uacute;mero del elemento a referenciar.</p>
-<p>&nbsp;</p>
-<p>PRESENTACI&Oacute;N <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/ETwvsn7uol9MnHgUlBGhCRoBRxP93lpi0XaTeemTugb6UA?e=MFifk7">Clase 1.1 Estructuras de datos.pdf (pp. 3-11)</a></p>
-<p>VIDEO <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/Eb_iS69mtzBHiGcmWPJv8UUB8faQEOMLCVX-17lIujYe9A?e=j98AXg">Clase_1.4_Vectores_full</a></p>
-<ul>
-<li>Factores</li>
-</ul>
+<p><span style="text-decoration: underline; color: #ff0000;">Presentaci&oacute;n</span></p>
+<p><span style="text-decoration: underline; color: #ff0000;">Video</span></p>
+<p>1.2.2. Factores</p>
 <p>El factor es un vector que contiene un elemento agrupador sobre los datos. Autom&aacute;ticamente identifica los elementos distintos y agrega "niveles".</p>
-<p>&nbsp;</p>
-<p>PRESENTACI&Oacute;N <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/ETwvsn7uol9MnHgUlBGhCRoBRxP93lpi0XaTeemTugb6UA?e=MFifk7">Clase 1.1 Estructuras de datos.pdf (pp. 14-23)</a></p>
-<p>VIDEO <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/ES0g9mPvILBLrK2DNasrcdEBbJ4rtPxPZB9Mv78REUUajg?e=GjZPPQ">Clase_1.5_Factores_small</a></p>
-<ul>
-<li>Matrices</li>
-</ul>
+<p><span style="text-decoration: underline; color: #ff0000;">Presentaci&oacute;n</span></p>
+<p><span style="text-decoration: underline; color: #ff0000;">Video</span></p>
+<p>1.2.3. Matrices</p>
 <p>La matriz es una estructura bidimensional que puede contener valores num&eacute;ricos o caracteres, pero no ambos. Se puede referenciar usando corchetes [] y especificando la fila y columna de un elemento, por ejemplo: [i,j].</p>
-<p>&nbsp;</p>
-<p>PRESENTACI&Oacute;N <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/ETwvsn7uol9MnHgUlBGhCRoBRxP93lpi0XaTeemTugb6UA?e=MFifk7">Clase 1.1 Estructuras de datos.pdf (pp. 27-40)</a></p>
-<p>VIDEO <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/EY9BvUqO135CsM1UGx_UticBSxMARX8TPv9RPrKUc_eD7A?e=EBDJjj">Clase_1.6_Matrices_ed</a></p>
-<ul>
-<li>Marcos de datos</li>
-</ul>
+<p><span style="text-decoration: underline; color: #ff0000;">Presentaci&oacute;n</span></p>
+<p><span style="text-decoration: underline; color: #ff0000;">Video</span></p>
+<p>1.2.4 Marcos de datos</p>
 <p>El marco de datos es la estructura de datos que m&aacute;s usaremos. Es bidimensional y puede contener valores num&eacute;ricos y caracteres, a modo de una hoja de Excel. Para referenciar podemos usar corchetes [i,j] con el n&uacute;mero o nombre de la columna (variable). Tambi&eacute;n podemos usar el operador compacto ($) para referenciar el nombre de la columna desde el objeto, por ejemplo, <em>datos$variablex</em>.</p>
-<p>&nbsp;</p>
-<p>PRESENTACI&Oacute;N <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/ETwvsn7uol9MnHgUlBGhCRoBRxP93lpi0XaTeemTugb6UA?e=MFifk7">Clase 1.1 Estructuras de datos.pdf (pp. 44-58)</a></p>
-<p>VIDEO <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/EUCPnCy3OxVCm5dgedowp6EBcm_XKgMqvHdlMYkrC0NRrA?e=K2daAw">Clase_1.7_MarcoDeDatos_small</a></p>
-<ul>
-<li>Listas</li>
-</ul>
+<p><span style="text-decoration: underline; color: #ff0000;">Presentaci&oacute;n</span></p>
+<p><span style="text-decoration: underline; color: #ff0000;">Video</span></p>
+<p>1.2.5. Listas</p>
 <p>La lista es una estructura de datos que puede contener cualquier otra estructura. Podemos referenciar los elementos que contiene como parte de una lista usando corchetes [i] o el elemento en su forma nativa con corchete doble [[i]].</p>
-<p>&nbsp;</p>
-<p>PRESENTACI&Oacute;N <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/ETwvsn7uol9MnHgUlBGhCRoBRxP93lpi0XaTeemTugb6UA?e=MFifk7">Clase 1.1 Estructuras de datos.pdf (pp. 62-74)</a></p>
-<p>VIDEO <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/EXfQ12R84zxLkXas8qFQoWYBQqtEiH-0ZE8iJLIN7aKxRw?e=kMqWOT">Clase_1.8_Listas</a></p>
+<p><span style="text-decoration: underline; color: #ff0000;">Presentaci&oacute;n</span></p>
+<p><span style="text-decoration: underline; color: #ff0000;">Video</span></p>
 			
 			
           </div>
@@ -340,7 +278,7 @@
       <div class="container contenedor-seccion">
         <div class="row mb-4">
           <div class="col">
-            <h3><i class="icon-icono_fuentes"></i> Fuentes de Información</h3>
+            
           </div>
         </div>
         <div class="row">
@@ -357,7 +295,7 @@
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      Básicas
+                      <h3><i class="icon-icono_fuentes"></i> Fuentes de Información</h3>
                     </button>
                   </h2>
                 </div>
@@ -395,52 +333,38 @@
         <div class="row bg-light text-dark p-2">
           <div class="col">
             <h4>
-              <span class="font-weight-bold">Actividad .</span> 
+              <span class="font-weight-bold">Actividad 1. Conceptos Básicos</span> 
             </h4>
             <p><span class="font-weight-bold">Descripci&oacute;n:</span></p>
 <p>Este es un ejercicio simple que tiene como objetivo crear un directorio (<em>folder</em>) de trabajo para concentrar ah&iacute; los materiales del curso, as&iacute; como hacer de dicho espacio en el disco duro su directorio de trabajo en R. El resultado final, un <em>script</em> (*.R), ser&aacute; el medio a trav&eacute;s del que reportar&aacute; todas sus actividades. Dicho archivo de texto contendr&aacute; los comandos en c&oacute;digo y los comentarios que asocie a cada caso. Los <em>script</em> son la materia prima para hacer funcionar R, por lo que la correcta ejecuci&oacute;n y comprensi&oacute;n de este primer ejercicio es vital para sus futuras interacciones con el programa, otros usuarios y entregas de actividades.</p>
-<p>DIAPOSITIVA</p>
-<p>&nbsp;</p>
+<p>DIAPOSITIVA <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EWsXzu1bvX5NhQQUY3OueUUBhXib47SSNiwbtyrZvatAOQ?e=LOBeyB">Clase 1.0 Introducción y conceptos básicos.pdf (p. 38)</a><a href="#_msocom_5">[U5]</a>&nbsp;<a href="#_msocom_6">[PCL6]</a>&nbsp;<a href="#_msocom_7">[U7]</a>&nbsp;</p>
 <p><span class="font-weight-bold">Indicaciones:</span></p>
-<ol>
-<li>Crear un directorio de trabajo (<em>folder</em>) para el curso.</li>
-<li>Hacer de dicho <em>folder</em> el directorio de trabajo en R.</li>
-<li>Entregar un <em>script</em> (*.R) funcional que d&eacute; cuenta de lo anterior.</li>
-<li>Recuerde agregar, como comentarios en su <em>script</em>, sus dudas o los mensajes de advertencia y/o error que R le haya reportado, as&iacute; como los comandos que los originaron.</li>
-</ol>
-<p><u>&nbsp;</u></p>
+<p>1. Crear un directorio de trabajo (<em>folder</em>) para el curso.</p>
+<p>2. Hacer de dicho <em>folder</em> el directorio de trabajo en R.</p>
+<p>3. Entregar un <em>script</em> (*.R) funcional que d&eacute; cuenta de lo anterior.</p>
+<p>4. Recuerde agregar, como comentarios en su <em>script</em>, sus dudas o los mensajes de advertencia y/o error que R le haya reportado, as&iacute; como los comandos que los originaron.</p>
 <p><span class="font-weight-bold">Criterios de desempe&ntilde;o:</span></p>
-<ol>
-<li>Dominio de la asignaci&oacute;n del directorio de trabajo desde R.</li>
-<li>Apertura y guardado de un archivo con extensi&oacute;n *.R que contenga tanto comentarios como comandos ejecutables.</li>
-</ol>
-<p>&nbsp;</p>
+<p>1. Dominio de la asignaci&oacute;n del directorio de trabajo desde R.</p>
+<p>2. Apertura y guardado de un archivo con extensi&oacute;n *.R que contenga tanto comentarios como comandos ejecutables.</p>
 <p><span class="font-weight-bold">Lineamientos de entrega:</span></p>
-<ol>
-<li>Divida su <em>script</em> en secciones, usando <em>hashtag</em> # al inicio de las l&iacute;neas que comente. Para conocer ejemplos de <em>scripts</em> revise la <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/ERTO-QLeJIdFo9MoR3h7XFQB-92QV0r8DYuhnE-vdJ23pg?e=h0U3wr">Clase 3.0 Scripts, funciones y control de flujo.pdf (pp. 1-19)</a>. Por ejemplo, si va a iniciar la secci&oacute;n en que asigna su directorio de trabajo, puede indicarlo con la l&iacute;nea:</li>
-</ol>
+<p>1. Divida su <em>script</em> en secciones, usando <em>hashtag</em> # al inicio de las l&iacute;neas que comente. Para conocer ejemplos de <em>scripts</em> revise la <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/ERTO-QLeJIdFo9MoR3h7XFQB-92QV0r8DYuhnE-vdJ23pg?e=h0U3wr">Clase 3.0 Scripts, funciones y control de flujo.pdf (pp. 1-19)</a>. Por ejemplo, si va a iniciar la secci&oacute;n en que asigna su directorio de trabajo, puede indicarlo con la l&iacute;nea:</p>
 <p># Ajustar directorio de trabajo setwd(&ldquo;/Usuario/CursoEMDR&rdquo;) y en las l&iacute;neas subsecuentes agregue los comandos que correspondan a la soluci&oacute;n del ejercicio en turno.</p>
-<ol start="2">
-<li>Titule el archivo (*.R) de la siguiente forma:</li>
-</ol>
-<p><em>Act</em><em>ividad</em><em>1._ApellidoPaternoPrimerNombre.R</em>&nbsp; Ejemplo: <em>Act</em><em>ividad</em><em>1._CoyotlPedro.R</em></p>
-<ol start="3">
-<li>Env&iacute;e su archivo (*.R), a trav&eacute;s del apartado <span class="font-weight-bold">Actividades</span> de la plataforma Eminus, a m&aacute;s tardar en la fecha establecida en el <span class="font-weight-bold">Calendario</span> de entregas.</li>
-</ol>
+<p>2. Titule el archivo (*.R) de la siguiente forma:<em>Act</em><em>ividad</em><em>1._ApellidoPaternoPrimerNombre.R</em> Ejemplo: <em>Act</em><em>ividad</em><em>1._CoyotlPedro.R</em></p>
+<p>3. Env&iacute;e su archivo (*.R), a trav&eacute;s del apartado <span class="font-weight-bold">Actividades</span> de la plataforma Eminus, a m&aacute;s tardar en la fecha establecida en el <span class="font-weight-bold">Calendario</span> de entregas.</p>
           </div>
         </div>
 		<br>
 		<div class="row bg-light text-dark p-2">
           <div class="col">
             <h4>
-              <span class="font-weight-bold">Actividad .</span> 
+              <span class="font-weight-bold">Actividad 2. Tipos de datos en R.</span> 
             </h4>
             <p><span class="font-weight-bold">Descripci&oacute;n:</span></p>
 <p>Esta serie de ejercicios tiene como objetivo familiarizarlo con las distintas estructuras (modos) en que R almacena datos, yendo desde el m&aacute;s simple (vector) hasta el m&aacute;s complejo (lista). Reconocer&aacute; tanto las diferencias estructurales como los contextos en que una u otra le ser&aacute;n de utilidad, as&iacute; como las dificultades que aparecen cuando intenta hacer operaciones para los que determinada estructura no est&aacute; habilitada. Tambi&eacute;n revisaremos c&oacute;mo convertir distintos conjuntos de datos de una a otra estructura, cuando esto aplique o sea necesario.</p>
-<p>&nbsp;</p>
+
 <p><span class="font-weight-bold">Indicaciones:</span></p>
 <p>Explorar, identificar y manipular las distintas estructuras de datos que maneja R.</p>
-<p>&nbsp;</p>
+
 <p><span class="font-weight-bold">Ejercicios (en las p&aacute;ginas se&ntilde;aladas dentro de las presentaciones)</span></p>
 <p>1.2.1 Vectores. Clase 1.1 Estructuras de datos.pdf (p. 11)</p>
 <p>1.2.2 Factores. Clase 1.1 Estructuras de datos.pdf (p. 23)</p>
@@ -459,15 +383,14 @@
 </ol>
 <p><em>Actividad2_ApellidoPaternoPrimerNombre.R.</em>&nbsp; Ejemplo: <em>Actividad2_CoyotlPedro.R</em></p>
 <p>Env&iacute;e su archivo (*.R), a trav&eacute;s del apartado de <span class="font-weight-bold">Actividades</span> de la plataforma Eminus, a m&aacute;s tardar en la fecha establecida en el<span class="font-weight-bold"> Calendario</span> de entregas.</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
           </div>
         </div>
 		<br>
 		<div class="row bg-light text-dark p-2">
           <div class="col">
             <h4>
-              <span class="font-weight-bold">Foro</span> 
+              <span class="font-weight-bold">Foro del Tema I.</span> 
             </h4>
             <p><span class="font-weight-bold">Descripci&oacute;n:</span></p>
 <ol>
@@ -475,19 +398,20 @@
 <li>El foro estar&aacute; abierto s&oacute;lo hasta la fecha l&iacute;mite indicada.</li>
 <li>Recuerde atender a las <a href="https://eminusapi.uv.mx/eminusapi/drive/cur_7162/Contenido/elem_22964/recurso/karate/pdfs/reglas_foros_discusion.pdf">pdf</a></li>
 </ol>
-<p>&nbsp;</p>
+
 <p><span class="font-weight-bold">Criterios de desempe&ntilde;o:</span></p>
 <ol>
 <li>Compartir y discutir soluciones de las actividades.</li>
 <li>Valorar la pertinencia de modificar nuestra estrategia al usar el <em>software</em>.</li>
 <li>Sugerir ideas que den pauta a una pr&aacute;ctica m&aacute;s funcional del <em>software</em>.</li>
 </ol>
-<p>&nbsp;</p>
+
 <p><span class="font-weight-bold">Lineamientos de entrega:</span></p>
 <ol>
 <li>Publique su participaci&oacute;n en el&nbsp;Foro del Tema I.</li>
+
+<li>Su participaci&oacute;n en el foro ser&aacute; en la fecha establecida en el <span class="font-weight-bold">Calendario</span> de entregas. Los foros no conceder&aacute;n pr&oacute;rroga.</li>
 </ol>
-<p>Su participaci&oacute;n en el foro ser&aacute; en la fecha establecida en el <span class="font-weight-bold">Calendario</span> de entregas. Los foros no conceder&aacute;n pr&oacute;rroga.</p>
           </div>
         </div>
 		<br>
