@@ -1,19 +1,6 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 /* No media query for `xs` since this is the default in Bootstrap*/
-.lg-view{
-   display:inline-block;
-}
 
-.sm-view{
-   display:none;
-}
-.frances{
-	text-indent: -4em;
-	margin-left: 6em;
-}
-.frances2{
-	margin-left: 1em;
-}
 #imagen-introduccion{
     width:75%;
     height:75%;
@@ -42,9 +29,6 @@
 
 #modulo1-tema4-imagen-1 {
     width: 40%;
-}
-br.responsivo {
-	display: none; 
 }
 
 
@@ -92,40 +76,6 @@ br.responsivo {
     #imagen-tema-4 {
         width: 30%;
     }
-	
-}
-
-@media screen and (max-width: 600px) {
-	#tabla-evaluacion{
-		text-align:center;
-		width:360px;
-		height:340px;
-		overflow:auto;
-	}
-	.frances{
-		text-indent: 0em;
-		margin-left: 0em;
-	}
-	.frances2{
-	margin-left: 0em;
-}
-	br.responsivo {
-		display: inline; 
-	}
-	 .lg-view{
-       display:none;
-    }
-
-    .sm-view{
-       display:inline-block;
-    }
-	.modulolargo{
-		font-size: 14px;
-	}
-	.modulolargo2{
-		font-size: 7px;
-	}
-	
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -133,3 +83,80 @@ br.responsivo {
     
 }*/
 
+
+
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
