@@ -100,7 +100,7 @@ body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {
   display: none;
   padding: 80px;
-  text-align: center;
+  text-align: justify;
 }
 
 /* Next & previous buttons */
@@ -160,3 +160,15 @@ q {font-style: italic;}
 
 /* Add a blue color to the author */
 .author {color: cornflowerblue;}
+
+#modulo1{
+	background-image: url('../images/inicio/slide3.jpg');
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+	
+}
+#modulo1:hover {
+	background-image: url('../images/modulo1.png');
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+}
