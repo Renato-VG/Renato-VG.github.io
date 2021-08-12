@@ -164,11 +164,84 @@ q {font-style: italic;}
 #modulo1{
 	background-image: url('../images/inicio/slide3.jpg');
 	background-repeat: no-repeat;
-	background-size: 200px 200px;
+	background-size: 290px 290px;
 	
 }
 #modulo1:hover {
 	background-image: url('../images/modulo1.png');
 	background-repeat: no-repeat;
-	background-size: 200px 200px;
+	background-size: 290px 290px;
+}
+#modulo2{
+	background-image: url('../images/inicio/slide3.jpg');
+	background-repeat: no-repeat;
+	background-size: 290px 290px;
+	
+}
+#modulo2:hover {
+	background-image: url('../images/modulo2.png');
+	background-repeat: no-repeat;
+	background-size: 290px 290px;
+}
+#modulo3{
+	background-image: url('../images/inicio/slide3.jpg');
+	background-repeat: no-repeat;
+	background-size: 290px 290px;
+	
+}
+#modulo3:hover {
+	background-image: url('../images/modulo3.png');
+	background-repeat: no-repeat;
+	background-size: 290px 290px;
+}
+#modulo4{
+	background-image: url('../images/inicio/slide3.jpg');
+	background-repeat: no-repeat;
+	background-size: 290px 290px;
+	
+}
+#modulo4:hover {
+	background-image: url('../images/modulo4.png');
+	background-repeat: no-repeat;
+	background-size: 290px 290px;
+}
+#modulo4{
+	background-image: url('../images/inicio/slide3.jpg');
+	background-repeat: no-repeat;
+	background-size: 290px 290px;
+	
+}
+#modulo4:hover {
+	background-image: url('../images/modulo4.png');
+	background-repeat: no-repeat;
+	background-size: 290px 290px;
+}
+#evalDes{
+	background-image: url('../images/modulo1/slide3.jpg');
+	background-repeat: no-repeat;
+	background-size: 600px 290px;
+}
+#evalDes:hover {
+	background-image: url('../images/eval.jpg');
+	background-repeat: no-repeat;
+	background-size: 600px 290px;
+}
+
+
+
+
+.evaluacion,
+.apartadoModulo {
+    background-color: blue;
+	background-repeat: no-repeat;
+    margin: 2px;
+    font-size: 1.5em;
+}
+.evaluacion {
+    height: 200px;
+    line-height: 200px;
+}
+.apartadoModulo {
+    height: 100px;
+    line-height: 100px;
 }
