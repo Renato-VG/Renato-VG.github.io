@@ -13,7 +13,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/style.min.css" />
     <link rel="stylesheet" href="css/estilos.css" />
-    <title></title>
+    <title>Estadística y manejo de datos con R</title>
   </head>
   <body>
     <!--Encabezado-->
@@ -224,7 +224,7 @@
             </figure>
           </div>
           <div class="col-9">
-            <p>Este curso est&aacute; dise&ntilde;ado para desarrollarse en Rstudio, por ello es importante que cuente con R (<a href="https://www.r-project.org/">https://www.r-project.org/</a>) y RStudio (<a href="https://www.rstudio.com/">https://www.rstudio.com/</a>) instalados para esta sesi&oacute;n. RStudio es la manera m&aacute;s eficiente de interaccionar con R. Revisaremos los conceptos b&aacute;sicos relacionados con el funcionamiento de este programa de c&oacute;mputo estad&iacute;stico, así mismo, las partes que componen la interfaz gr&aacute;fica y el espacio de trabajo de R. Y, sin m&aacute;s pre&aacute;mbulo, iniciaremos la revisi&oacute;n de los modos (estructuras) en que R puede almacenar y manejar datos en su espacio de trabajo, as&iacute; como las propiedades (<em>pros</em> y contras) de cada estructura. Ser&aacute; una sesi&oacute;n intensa y cargada de ejercicios cortos, planeada as&iacute; para fomentar la interacci&oacute;n con R. Cerraremos revisando de qu&eacute; manera podemos acomodar, agrupar o filtrar datos espec&iacute;ficos o de inter&eacute;s, consultando diferentes bases de datos.</p>
+            <p>Este curso est&aacute; dise&ntilde;ado para desarrollarse en Rstudio, por ello es importante que cuente con R (<a class="fot-weight-bold" style="color:white; text-decoration: underline;" target="_blank" href="https://www.r-project.org/">https://www.r-project.org/</a>) y RStudio (<a target="_blank" class="fot-weight-bold" style="color:white; text-decoration: underline;" href="https://www.rstudio.com/">https://www.rstudio.com/</a>) instalados para esta sesi&oacute;n. RStudio es la manera m&aacute;s eficiente de interaccionar con R. Revisaremos los conceptos b&aacute;sicos relacionados con el funcionamiento de este programa de c&oacute;mputo estad&iacute;stico, así mismo, las partes que componen la interfaz gr&aacute;fica y el espacio de trabajo de R. Y, sin m&aacute;s pre&aacute;mbulo, iniciaremos la revisi&oacute;n de los modos (estructuras) en que R puede almacenar y manejar datos en su espacio de trabajo, as&iacute; como las propiedades (<em>pros</em> y contras) de cada estructura. Ser&aacute; una sesi&oacute;n intensa y cargada de ejercicios cortos, planeada as&iacute; para fomentar la interacci&oacute;n con R. Cerraremos revisando de qu&eacute; manera podemos acomodar, agrupar o filtrar datos espec&iacute;ficos o de inter&eacute;s, consultando diferentes bases de datos.</p>
 		</div>
 		</div>
 	<div class="row">
@@ -238,11 +238,35 @@
 <p class="font-weight-bold"><em>1.1.3. Objetos y funciones</em></p>
 <p>Es posible asignar a un <em>objeto</em> en el espacio de trabajo el contenido de una variable, mediante el empleo de <em>&lt;-</em>, un operador flecha. Cuando realizamos una asignaci&oacute;n, R no imprime el contenido, solamente reasigna este valor. Cuando colocamos el nombre de un objeto en la l&iacute;nea de comando y lo ejecutamos, R imprime su contenido.</p>
 <p>Las funciones son piezas de c&oacute;digo prefabricadas que nos ayudan a llevar a cabo de forma sencilla un proceso complejo. Para "llamarlas" debemos especificar su nombre, as&iacute; como los <em>objetos</em> sobre los que queremos que operen. Podemos modificar la forma en que opera una funci&oacute;n mediante la especificaci&oacute;n de sus par&aacute;metros o argumentos.</p>
-<p>Para una comprensi&oacute;n m&aacute;s clara, a continuaci&oacute;n se muestra la siguiente presentaci&oacute;n de los subtemas 1.1.1 a 1.1.3: <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EWsXzu1bvX5NhQQUY3OueUUBhXib47SSNiwbtyrZvatAOQ?e=LOBeyB">Clase 1.0 Introducci&oacute;n y conceptos básicos.pdf</a>, as&iacute; como los videos que tambi&eacute;n corresponden a los subtemas 1.1.1 a 1.1.3: <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/EcTCj1GmtI5IjtQ9JXsKpTsB05CLOZtRP-ZjRzwrwLUqpQ?e=s4b2Z5">Clase_1.2_ConceptosB&aacute;sicos_small</a> y <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/ESIyuAyUii9OqoiWKeQQ-AUBvuAj-siJPv6KV2D50LLWpA?e=IBP27z">Clase_1.1_RStudio_porpartes_small</a></p>
+<p>Para una comprensi&oacute;n m&aacute;s clara, a continuaci&oacute;n se muestra la siguiente presentaci&oacute;n de los subtemas 1.1.1 a 1.1.3: Clase 1.0 Introducci&oacute;n y conceptos básicos, as&iacute; como los videos que tambi&eacute;n corresponden a los subtemas 1.1.1 a 1.1.3: Clase_1.2_ConceptosB&aacute;sicos_small y Clase_1.1_RStudio_porpartes_small
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="recursos/Clase1.html" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>	
+<div style="text-align:center">
+<video width="560" height="420"  controls>
+  <source src="Videos/Clase_1.1_RStudio_porpartes_small.mp4" type="video/mp4">
+	Su navegador no soporta video.
+</video>
+</div>
+<br>
+<div style="text-align:center">
+<video width="560" height="420" controls>
+  <source src="Videos/Clase_1.2_ConceptosBásicos_small.mp4"  type="video/mp4">
+	Su navegador no soporta video.
+</video>
+</div>
+<br>
+<div style="text-align:center">
+<video width="560" height="420" controls>
+  <source src="Videos/Clase_1.3_Tipos_Datos.mp4"  type="video/mp4">
+	Su navegador no soporta video.
+</video>
+</div>
+<br>
 <p class="font-weight-bold"><em>1.1.4. Ayuda</em></p>
 <p>R tiene una extensa biblioteca de ayuda para sus funciones. Aqu&iacute; revisaremos las m&uacute;ltiples formas de acceder a la ayuda.</p>
-<p>Para ello, acceda a las siguientes presentaciones: <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EeDDE6UhiUlJgxepl10DzswBP4GWNpnGGllQGGihw2iI0w?e=u3f1p6">Clase 1.2 Datos y donde encontrarlos.pdf</a> y <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/EbC1W1qQRM5Cth6JizAFBl8B55BQZLkhbZ51XXLLL82Igg?e=aEoJoT">Clase 1.4 Cargando y explorando datos.pdf</a></p>	
-<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="recursos/Clase1.html" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>		
+<p>Para ello, acceda a las siguientes presentaciones: Clase 1.2 Datos y donde encontrarlos y Clase 1.4 Cargando y explorando datos.</p>	
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="recursos/Clase1_2.html" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>	
+<br>
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="recursos/Clase1_4.html" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>	
           </div>
 		  </div>
         </div>
@@ -257,21 +281,57 @@
 <p class="font-weight-bold">1.2 Tipos de datos y formatos de bases de datos</p>
 <p class="font-weight-bold"><em>1.2.1. Vectores</em></p>
 <p>El vector es la estructura de datos m&aacute;s sencilla de R. Trata de una sola l&iacute;nea horizontal de valores (n&uacute;meros o caracteres). Se construye asignando a un objeto dichos valores con la funci&oacute;n <em>c()</em>. Se pueden referenciar los elementos dentro de un vector usando corchetes [], y dentro de &eacute;stos el n&uacute;mero del elemento a referenciar.</p>
-<p>Revise la siguiente presentaci&oacute;n: <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/ETwvsn7uol9MnHgUlBGhCRoBRxP93lpi0XaTeemTugb6UA?e=MFifk7">Clase 1.1 Estructuras de datos.pdf (pp. 3-11)</a>, as&iacute; como el video: <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/Eb_iS69mtzBHiGcmWPJv8UUB8faQEOMLCVX-17lIujYe9A?e=j98AXg">Clase_1.4_Vectores_full</a></p>
+<p>Revise la siguiente presentaci&oacute;n: Clase 1.1 Estructuras de datos.pdf (pp. 3-11), as&iacute; como el video: Clase_1.4_Vectores_full</p>
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="recursos/Clase1_1_bis.html" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>	
+<div style="text-align:center">
+<video width="560" height="420" controls>
+  <source src="Videos/Clase_1.4_Vectores_full.mp4"  type="video/mp4">
+	Su navegador no soporta video.
+</video>
+</div>
 <p class="font-weight-bold"><em>1.2.2. Factores</em></p>
 <p>El factor es un vector que contiene un elemento agrupador sobre los datos. Autom&aacute;ticamente identifica los elementos distintos y agrega "niveles".</p>
-<p>Revise la siguiente presentaci&oacute;n: <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/ETwvsn7uol9MnHgUlBGhCRoBRxP93lpi0XaTeemTugb6UA?e=MFifk7">Clase 1.1 Estructuras de datos.pdf (pp. 14-23)</a>, as&iacute; como el video: <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/ES0g9mPvILBLrK2DNasrcdEBbJ4rtPxPZB9Mv78REUUajg?e=GjZPPQ">Clase_1.5_Factores_small</a></p>
+<p>Revise la siguiente presentaci&oacute;n: Clase 1.1 Estructuras de datos.pdf (pp. 14-23), as&iacute; como el video: Clase_1.5_Factores_small</p>
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="recursos/Clase1_1_bis.html" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>	
+<div style="text-align:center">
+<video width="560" height="420" controls>
+  <source src="Videos/Clase_1.5_Factores_small.mp4" .mp4" type="video/mp4">
+	Su navegador no soporta video.
+</video>
+</div>
 <p class="font-weight-bold"><em>1.2.3. Matrices</em></p>
 <p>La matriz es una estructura bidimensional que puede contener valores num&eacute;ricos o caracteres, pero no ambos. Se puede referenciar usando corchetes [] y especificando la fila y columna de un elemento, por ejemplo: [i,j].</p>
-<p>Revise la siguiente presentaci&oacute;n: <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/ETwvsn7uol9MnHgUlBGhCRoBRxP93lpi0XaTeemTugb6UA?e=MFifk7">Clase 1.1 Estructuras de datos.pdf (pp. 27-40)</a>, as&iacute; como el video: <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/EY9BvUqO135CsM1UGx_UticBSxMARX8TPv9RPrKUc_eD7A?e=EBDJjj">Clase_1.6_Matrices_ed</a></p>
+<p>Revise la siguiente presentaci&oacute;n: Clase 1.1 Estructuras de datos.pdf (pp. 27-40), as&iacute; como el video: Clase_1.6_Matrices_ed</p>
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="recursos/Clase1_1_bis.html" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>		
+<div style="text-align:center">
+<video width="560" height="420" controls>
+  <source src="Videos/Clase_1.6_Matrices_ed.mp4" .mp4" type="video/mp4">
+	Su navegador no soporta video.
+</video>
+</div>
+
+
 <p class="font-weight-bold"><em>1.2.4 Marcos de datos</em></p>
 <p>El marco de datos es la estructura de datos que m&aacute;s usaremos. Es bidimensional y puede contener valores num&eacute;ricos y caracteres, a modo de una hoja de Excel. Para referenciar podemos usar corchetes [i,j] con el n&uacute;mero o nombre de la columna (variable). Tambi&eacute;n podemos usar el operador compacto ($) para referenciar el nombre de la columna desde el objeto, por ejemplo, <em>datos$variablex</em>.</p>
-<p>Revise la siguiente presentaci&oacute;n: <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/ETwvsn7uol9MnHgUlBGhCRoBRxP93lpi0XaTeemTugb6UA?e=MFifk7">Clase 1.1 Estructuras de datos.pdf (pp. 44-58)</a>, as&iacute; como el video: <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/EUCPnCy3OxVCm5dgedowp6EBcm_XKgMqvHdlMYkrC0NRrA?e=K2daAw">Clase_1.7_MarcoDeDatos_small</a></p>
+<p>Revise la siguiente presentaci&oacute;n: Clase 1.1 Estructuras de datos.pdf (pp. 44-58), as&iacute; como el video: Clase_1.7_MarcoDeDatos_small</p>
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="recursos/Clase1_1_bis.html" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>	
+<div style="text-align:center">
+<video width="560" height="420" controls>
+  <source src="Videos/Clase_1.7_MarcoDeDatos_small.mp4" type="video/mp4">
+	Su navegador no soporta video.
+</video>
+</div>
+
 <p class="font-weight-bold"><em>1.2.5. Listas</em></p>
 <p>La lista es una estructura de datos que puede contener cualquier otra estructura. Podemos referenciar los elementos que contiene como parte de una lista usando corchetes [i] o el elemento en su forma nativa con corchete doble [[i]].</p>
-<p>Revise la siguiente presentaci&oacute;n: <a href="https://uvmx-my.sharepoint.com/:b:/g/personal/luipacheco_uv_mx/ETwvsn7uol9MnHgUlBGhCRoBRxP93lpi0XaTeemTugb6UA?e=MFifk7">Clase 1.1 Estructuras de datos.pdf (pp. 62-74)</a>, as&iacute; como el video: <a href="https://uvmx-my.sharepoint.com/:v:/g/personal/luipacheco_uv_mx/EXfQ12R84zxLkXas8qFQoWYBQqtEiH-0ZE8iJLIN7aKxRw?e=kMqWOT">Clase_1.8_Listas</a></p>
-			
-			
+<p>Revise la siguiente presentaci&oacute;n: 1.1 Estructuras de datos.pdf (pp. 62-74), as&iacute; como el video: Clase_1.8_Listas</p>
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="recursos/Clase1_1_bis.html" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>		
+<div style="text-align:center">
+<video width="560" height="420" controls>
+  <source src="Videos/Clase_1.8_Listas.mp4"  type="video/mp4">
+	Su navegador no soporta video.
+</video>
+</div>	
           </div>
         </div>
         <div class="row mt-2">
