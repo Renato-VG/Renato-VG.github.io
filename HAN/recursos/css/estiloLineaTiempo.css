@@ -52,9 +52,53 @@
   .e5 {
 	  left: 48%;
   }
+  .e6 {
+	  left: 48%;
+	  top: 16%;
+  }
+  .e7 {
+	  left: 36%;
+	  top: 16%;
+  }
+  .e8 {
+	  left: 24%;
+	  top: 16%;
+  }
+  .e9 {
+	  left: 12%;
+	  top: 16%;
+  }
+  .e10 {
+	  left: 14%;
+	  top: 30.5%;
+  }
+  .e11 {
+	  left: 28%;
+	  top: 30.5%;
+  }
+  .e12 {
+	  left: 42%;
+	  top: 30.5%;
+  }
+  .e13 {
+	  left: 56%;
+	  top: 30.5%;
+  }
   .tran1 {
-	  left: 67%;
+	  left: 60%;
 	  top: 4%;
+  }
+  .tran2 {
+	  left: 60%;
+	  top: 15%;
+  }
+  .tran3 {
+	  left:0%;
+	  top: 18.5%;
+  }
+  .tran4 {
+	  left: 0%;
+	  top: 29%;
   }
   .elemento-content span object {
 	  width: 360px;
@@ -79,6 +123,38 @@
   }
   .e5 {
 	  left: 56%;
+  }
+  .e6 {
+	  left: 56%;
+	  top: 22.5%;
+  }
+  .e7 {
+	  left: 42%;
+	  top: 22.5%;
+  }
+  .e8 {
+	  left: 28%;
+	  top: 22.5%;
+  }
+  .e9 {
+	  left: 14%;
+	  top: 22.5%;
+  }
+  .e10 {
+	  left: 14%;
+	  top: 45%;
+  }
+  .e11 {
+	  left: 28%;
+	  top: 45%;
+  }
+  .e12 {
+	  left: 42%;
+	  top: 45%;
+  }
+  .e13 {
+	  left: 56%;
+	  top: 45%;
   }
   .tran1 {
 	  left: 67%;
@@ -130,7 +206,19 @@
   }
   .e10 {
 	  left: 14%;
-	  top: 22.5%;
+	  top: 45%;
+  }
+  .e11 {
+	  left: 28%;
+	  top: 45%;
+  }
+  .e12 {
+	  left: 42%;
+	  top: 45%;
+  }
+  .e13 {
+	  left: 56%;
+	  top: 45%;
   }
   
   .tran1 {
@@ -140,6 +228,14 @@
   .tran2 {
 	  left: 67%;
 	  top: 19%;
+  }
+  .tran3 {
+	  left: 0%;
+	  top: 24%;
+  }
+  .tran4 {
+	  left: 0%;
+	  top: 40%;
   }
   .elemento-content span object {
 	  width: 330px;
@@ -238,8 +334,40 @@
   .e5 {
 	  left: 64%;
   }
+  .e6 {
+	  left: 64%;
+	  top: 25%;
+  }
+  .e7 {
+	  left: 48%;
+	  top: 25%;
+  }
+  .e8 {
+	  left: 32%;
+	  top: 25%;
+  }
+  .e9 {
+	  left: 16%;
+	  top: 25%;
+  }
+  .e10 {
+	  left: 16%;
+	  top: 50%;
+  }
+  .e11 {
+	  left: 32%;
+	  top: 50%;
+  }
+  .e12 {
+	  left: 48%;
+	  top: 50%;
+  }
+  .e13 {
+	  left: 64%;
+	  top: 50%;
+  }
   .tran1 {
-	  left: 77%;
+	  left: 30%;
 	  top: 2%;
   }
   .tran2 {
@@ -278,6 +406,38 @@
   }
   .e5 {
 	  left: 80%;
+  }
+  .e6 {
+	  left: 64%;
+	  top: 25%;
+  }
+  .e7 {
+	  left: 48%;
+	  top: 25%;
+  }
+  .e8 {
+	  left: 32%;
+	  top: 25%;
+  }
+  .e9 {
+	  left: 16%;
+	  top: 25%;
+  }
+  .e10 {
+	  left: 16%;
+	  top: 50%;
+  }
+  .e11 {
+	  left: 32%;
+	  top: 50%;
+  }
+  .e12 {
+	  left: 48%;
+	  top: 50%;
+  }
+  .e13 {
+	  left: 64%;
+	  top: 50%;
   }
   .tran1 {
 	  left: 67%;
